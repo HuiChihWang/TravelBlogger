@@ -9,21 +9,33 @@
 /* Begin PBXBuildFile section */
 		0CFEA40725FB709F0075AC6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CFEA40625FB709F0075AC6D /* AppDelegate.swift */; };
 		0CFEA40925FB709F0075AC6D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CFEA40825FB709F0075AC6D /* SceneDelegate.swift */; };
-		0CFEA40B25FB709F0075AC6D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CFEA40A25FB709F0075AC6D /* ViewController.swift */; };
 		0CFEA40E25FB709F0075AC6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CFEA40C25FB709F0075AC6D /* Main.storyboard */; };
 		0CFEA41025FB70A70075AC6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CFEA40F25FB70A70075AC6D /* Assets.xcassets */; };
 		0CFEA41325FB70A70075AC6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CFEA41125FB70A70075AC6D /* LaunchScreen.storyboard */; };
+		0CFEA42625FB75790075AC6D /* Me.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CFEA42525FB75790075AC6D /* Me.storyboard */; };
+		0CFEA42A25FF3C4D0075AC6D /* crayon_1-1.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0CFEA42925FF3C4D0075AC6D /* crayon_1-1.ttf */; };
+		0CFEA42E25FF45FB0075AC6D /* Travel.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CFEA42D25FF45FB0075AC6D /* Travel.storyboard */; };
+		0CFEA43225FF51850075AC6D /* GoldCoast.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CFEA43125FF51850075AC6D /* GoldCoast.storyboard */; };
+		0CFEA43525FF56380075AC6D /* Seoul.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CFEA43425FF56380075AC6D /* Seoul.storyboard */; };
+		0CFEA43825FF57E80075AC6D /* Bangkok.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CFEA43725FF57E80075AC6D /* Bangkok.storyboard */; };
+		0CFEA43B25FF58B90075AC6D /* ChiangMai.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CFEA43A25FF58B90075AC6D /* ChiangMai.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0CFEA40325FB709F0075AC6D /* TravelBlogger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TravelBlogger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CFEA40625FB709F0075AC6D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0CFEA40825FB709F0075AC6D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0CFEA40A25FB709F0075AC6D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0CFEA40D25FB709F0075AC6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0CFEA40F25FB70A70075AC6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0CFEA41225FB70A70075AC6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0CFEA41425FB70A70075AC6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CFEA42525FB75790075AC6D /* Me.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Me.storyboard; sourceTree = "<group>"; };
+		0CFEA42925FF3C4D0075AC6D /* crayon_1-1.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "crayon_1-1.ttf"; sourceTree = "<group>"; };
+		0CFEA42D25FF45FB0075AC6D /* Travel.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Travel.storyboard; sourceTree = "<group>"; };
+		0CFEA43125FF51850075AC6D /* GoldCoast.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = GoldCoast.storyboard; sourceTree = "<group>"; };
+		0CFEA43425FF56380075AC6D /* Seoul.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Seoul.storyboard; sourceTree = "<group>"; };
+		0CFEA43725FF57E80075AC6D /* Bangkok.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Bangkok.storyboard; sourceTree = "<group>"; };
+		0CFEA43A25FF58B90075AC6D /* ChiangMai.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ChiangMai.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +68,29 @@
 		0CFEA40525FB709F0075AC6D /* TravelBlogger */ = {
 			isa = PBXGroup;
 			children = (
+				0CFEA42825FF3C2E0075AC6D /* Font */,
 				0CFEA40625FB709F0075AC6D /* AppDelegate.swift */,
 				0CFEA40825FB709F0075AC6D /* SceneDelegate.swift */,
-				0CFEA40A25FB709F0075AC6D /* ViewController.swift */,
+				0CFEA42D25FF45FB0075AC6D /* Travel.storyboard */,
+				0CFEA43125FF51850075AC6D /* GoldCoast.storyboard */,
+				0CFEA43425FF56380075AC6D /* Seoul.storyboard */,
+				0CFEA43725FF57E80075AC6D /* Bangkok.storyboard */,
+				0CFEA43A25FF58B90075AC6D /* ChiangMai.storyboard */,
 				0CFEA40C25FB709F0075AC6D /* Main.storyboard */,
+				0CFEA42525FB75790075AC6D /* Me.storyboard */,
 				0CFEA40F25FB70A70075AC6D /* Assets.xcassets */,
 				0CFEA41125FB70A70075AC6D /* LaunchScreen.storyboard */,
 				0CFEA41425FB70A70075AC6D /* Info.plist */,
 			);
 			path = TravelBlogger;
+			sourceTree = "<group>";
+		};
+		0CFEA42825FF3C2E0075AC6D /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				0CFEA42925FF3C4D0075AC6D /* crayon_1-1.ttf */,
+			);
+			path = Font;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,9 +150,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CFEA42A25FF3C4D0075AC6D /* crayon_1-1.ttf in Resources */,
+				0CFEA43825FF57E80075AC6D /* Bangkok.storyboard in Resources */,
 				0CFEA41325FB70A70075AC6D /* LaunchScreen.storyboard in Resources */,
 				0CFEA41025FB70A70075AC6D /* Assets.xcassets in Resources */,
+				0CFEA42625FB75790075AC6D /* Me.storyboard in Resources */,
+				0CFEA42E25FF45FB0075AC6D /* Travel.storyboard in Resources */,
 				0CFEA40E25FB709F0075AC6D /* Main.storyboard in Resources */,
+				0CFEA43225FF51850075AC6D /* GoldCoast.storyboard in Resources */,
+				0CFEA43B25FF58B90075AC6D /* ChiangMai.storyboard in Resources */,
+				0CFEA43525FF56380075AC6D /* Seoul.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +170,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0CFEA40B25FB709F0075AC6D /* ViewController.swift in Sources */,
 				0CFEA40725FB709F0075AC6D /* AppDelegate.swift in Sources */,
 				0CFEA40925FB709F0075AC6D /* SceneDelegate.swift in Sources */,
 			);
