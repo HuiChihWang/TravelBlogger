@@ -58,6 +58,9 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="ij7-4T-tBX" kind="show" id="jvd-Pe-wA7"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="153" id="Hpm-f3-D3v">
                                         <rect key="frame" x="20" y="208.5" width="374" height="153"/>
@@ -298,6 +301,16 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7mt-vL-fK5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="247.82608695652175" y="-44.196428571428569"/>
+        </scene>
+        <!--GoldCoast-->
+        <scene sceneID="ySx-K2-Le2">
+            <objects>
+                <viewControllerPlaceholder storyboardName="GoldCoast" id="ij7-4T-tBX" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="cI8-kG-5uY"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZPs-uc-BOW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="965" y="-224"/>
         </scene>
     </scenes>
     <resources>
