@@ -221,29 +221,8 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="153" id="wpU-Q1-zmz">
-                                        <rect key="frame" x="20" y="1447.5" width="374" height="153"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="wpU-Q1-zmz" id="GQF-VB-M78">
-                                            <rect key="frame" x="0.0" y="0.0" width="374" height="153"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pataya" translatesAutoresizingMaskIntoConstraints="NO" id="ViF-iW-l01">
-                                                    <rect key="frame" x="20" y="9" width="180" height="135"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pataya" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FAc-yw-YrB">
-                                                    <rect key="frame" x="242" y="66" width="51" height="21"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <nil key="textColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                            </subviews>
-                                        </tableViewCellContentView>
-                                    </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="153" id="Fa7-R6-IfZ">
-                                        <rect key="frame" x="20" y="1600.5" width="374" height="153"/>
+                                        <rect key="frame" x="20" y="1447.5" width="374" height="153"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Fa7-R6-IfZ" id="kIE-lP-2gt">
                                             <rect key="frame" x="0.0" y="0.0" width="374" height="153"/>
@@ -268,7 +247,7 @@
                             <tableViewSection headerTitle="Korea" id="rw3-aM-wvB">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="153" id="nRT-Rn-kNy">
-                                        <rect key="frame" x="20" y="1809.5" width="374" height="153"/>
+                                        <rect key="frame" x="20" y="1656.5" width="374" height="153"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="nRT-Rn-kNy" id="g1J-I3-hfO">
                                             <rect key="frame" x="0.0" y="0.0" width="374" height="153"/>
@@ -321,7 +300,6 @@
         <image name="kul" width="1241" height="823"/>
         <image name="kyoto" width="1023" height="683"/>
         <image name="osaka" width="1366" height="768"/>
-        <image name="pataya" width="800" height="500"/>
         <image name="sabah" width="900" height="540"/>
         <image name="seoul" width="626" height="417"/>
         <image name="sydney" width="838" height="484"/>

@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="bJo-p5-4wc">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Table View Controller-->
+        <scene sceneID="Kqs-f2-zaU">
+            <objects>
+                <tableViewController id="bJo-p5-4wc" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" id="P2s-Tc-IpL">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <sections>
+                            <tableViewSection headerTitle="Place" id="IIH-xV-eEI">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="IOc-dI-qS2">
+                                        <rect key="frame" x="0.0" y="55.5" width="414" height="43.5"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="IOc-dI-qS2" id="z38-C4-sxu">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Jingfu Palace" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ymg-O6-nux">
+                                                    <rect key="frame" x="20" y="11" width="127" height="27"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="WGe-8w-Efk">
+                                        <rect key="frame" x="0.0" y="99" width="414" height="43.5"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="WGe-8w-Efk" id="DuQ-hV-d4e">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Namsan Tower" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0gy-tk-inz">
+                                                    <rect key="frame" x="20" y="11" width="141" height="27"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                            <tableViewSection headerTitle="Food" id="TEf-d9-L4D">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="TGu-n8-hgd">
+                                        <rect key="frame" x="0.0" y="198.5" width="414" height="43.5"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="TGu-n8-hgd" id="3JA-TI-COV">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="KyoChon Chicken" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3WE-uy-7b9">
+                                                    <rect key="frame" x="20" y="11" width="170" height="27"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="mH4-Fm-1Fp">
+                                        <rect key="frame" x="0.0" y="242" width="414" height="43.5"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="mH4-Fm-1Fp" id="x8F-Lv-ImZ">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="胖胖豬烤肉" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="97k-17-04M">
+                                                    <rect key="frame" x="20" y="11" width="112" height="27"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="bJo-p5-4wc" id="SCJ-aB-eNN"/>
+                            <outlet property="delegate" destination="bJo-p5-4wc" id="EIz-6d-M7z"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ls3-ji-ldW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-319" y="100"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="wQ1-FO-3YQ">
+            <objects>
+                <viewController id="FY2-1S-mtn" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8Ql-yX-3Cd">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Jin Fu Palace" translatesAutoresizingMaskIntoConstraints="NO" id="iJe-VU-7NT">
+                                <rect key="frame" x="0.0" y="44" width="414" height="290"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="iJe-VU-7NT" secondAttribute="height" multiplier="207:145" id="Dwf-Rv-vOX"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jing Fu Palace" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CHC-x4-xrX">
+                                <rect key="frame" x="0.0" y="352" width="414" height="33"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="x07-3t-jst">
+                                <rect key="frame" x="20" y="409" width="374" height="256"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="256" id="QnW-xB-x32"/>
+                                </constraints>
+                                <string key="text">作為五大宮闕之首的景福宮，興建於1394年，是朝鮮五大宮闕中規模最大的。景福宮名稱的由來是取自中國《詩經》中「君子萬年，介爾景福」的句意。因位於漢城北部，也叫「北闕」。明洪武二十八年（1395年）一月，開始新宮修建工程，在高麗故宮遺迹的基礎上加以擴建，命名為「宮城」，共有建築500多棟。當年十月，命判三司事鄭道傳為新宮命名。定宮名為景福宮</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zzo-mn-pVc">
+                                <rect key="frame" x="109" y="713" width="196" height="82"/>
+                                <color key="backgroundColor" red="0.60574042800000005" green="0.11049894239999999" blue="0.1215385571" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="82" id="Chf-1a-vBW"/>
+                                    <constraint firstAttribute="width" constant="196" id="Lgt-q3-miY"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="30"/>
+                                <state key="normal" title="韓服體驗">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="XtS-LX-7LM"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="zzo-mn-pVc" firstAttribute="top" secondItem="x07-3t-jst" secondAttribute="bottom" constant="48" id="A9c-YM-4vh"/>
+                            <constraint firstItem="x07-3t-jst" firstAttribute="top" secondItem="CHC-x4-xrX" secondAttribute="bottom" constant="24" id="BmO-7Y-ifW"/>
+                            <constraint firstItem="CHC-x4-xrX" firstAttribute="leading" secondItem="XtS-LX-7LM" secondAttribute="leading" id="HSu-lM-bVs"/>
+                            <constraint firstItem="x07-3t-jst" firstAttribute="trailing" secondItem="XtS-LX-7LM" secondAttribute="trailing" constant="-20" id="NyY-7r-1D2"/>
+                            <constraint firstItem="zzo-mn-pVc" firstAttribute="centerX" secondItem="XtS-LX-7LM" secondAttribute="centerX" id="PND-2t-Ybl"/>
+                            <constraint firstItem="CHC-x4-xrX" firstAttribute="trailing" secondItem="XtS-LX-7LM" secondAttribute="trailing" id="TJA-ba-Eqk"/>
+                            <constraint firstItem="iJe-VU-7NT" firstAttribute="trailing" secondItem="XtS-LX-7LM" secondAttribute="trailing" id="Y6n-y4-goD"/>
+                            <constraint firstItem="CHC-x4-xrX" firstAttribute="top" secondItem="iJe-VU-7NT" secondAttribute="bottom" constant="18" id="YMj-Rx-7Sh"/>
+                            <constraint firstItem="x07-3t-jst" firstAttribute="leading" secondItem="XtS-LX-7LM" secondAttribute="leading" constant="20" id="aWN-6u-gjd"/>
+                            <constraint firstItem="iJe-VU-7NT" firstAttribute="top" secondItem="XtS-LX-7LM" secondAttribute="top" id="vjO-76-K1p"/>
+                            <constraint firstItem="iJe-VU-7NT" firstAttribute="leading" secondItem="XtS-LX-7LM" secondAttribute="leading" id="wbS-BJ-TUt"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="hYU-ju-uQJ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="471-ue-wC6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="630" y="-264"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="3PW-fC-bmg">
+            <objects>
+                <viewController id="UbF-T5-r6Q" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="pd2-eh-e27">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="namsan tower" translatesAutoresizingMaskIntoConstraints="NO" id="b0Z-dT-zbA">
+                                <rect key="frame" x="0.0" y="44" width="414" height="290"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="b0Z-dT-zbA" secondAttribute="height" multiplier="207:145" id="554-nj-Hda"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Namsan Tower" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LRD-gv-WGQ">
+                                <rect key="frame" x="0.0" y="352" width="414" height="33"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HoW-zK-AWA">
+                                <rect key="frame" x="20" y="409" width="374" height="256"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="256" id="eNc-Br-C93"/>
+                                </constraints>
+                                <string key="text">Namsan Seoul Tower was the first tower-type tourism spot in Korea. The top of the tower is at almost 480 meters above sea level, including Namsan Mountain (243 meters) and the tower’s own height (236.7 meters), making it one of the tallest towers in Asia. It is comprised of Seoul Tower Plaza, recently opened to public access after 40 years, and N Seoul Tower, operated by CJ Foodville since 2005. </string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oWj-rb-Bp6">
+                                <rect key="frame" x="109" y="713" width="196" height="82"/>
+                                <color key="backgroundColor" red="0.60574042800000005" green="0.11049894239999999" blue="0.1215385571" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="196" id="g3K-eN-c9g"/>
+                                    <constraint firstAttribute="height" constant="82" id="had-6x-Dr1"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="30"/>
+                                <state key="normal" title="Book Now">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="32y-Ic-77H"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="HoW-zK-AWA" firstAttribute="trailing" secondItem="32y-Ic-77H" secondAttribute="trailing" constant="-20" id="2qI-Tg-bPW"/>
+                            <constraint firstItem="b0Z-dT-zbA" firstAttribute="top" secondItem="32y-Ic-77H" secondAttribute="top" id="7f4-JJ-3q2"/>
+                            <constraint firstItem="LRD-gv-WGQ" firstAttribute="top" secondItem="b0Z-dT-zbA" secondAttribute="bottom" constant="18" id="JTm-6R-r1M"/>
+                            <constraint firstItem="LRD-gv-WGQ" firstAttribute="trailing" secondItem="32y-Ic-77H" secondAttribute="trailing" id="QDm-Og-Z6Y"/>
+                            <constraint firstItem="HoW-zK-AWA" firstAttribute="top" secondItem="LRD-gv-WGQ" secondAttribute="bottom" constant="24" id="VbZ-Yl-htC"/>
+                            <constraint firstItem="b0Z-dT-zbA" firstAttribute="trailing" secondItem="32y-Ic-77H" secondAttribute="trailing" id="bPs-mi-HRI"/>
+                            <constraint firstItem="b0Z-dT-zbA" firstAttribute="leading" secondItem="32y-Ic-77H" secondAttribute="leading" id="c3S-gD-Pew"/>
+                            <constraint firstItem="LRD-gv-WGQ" firstAttribute="leading" secondItem="32y-Ic-77H" secondAttribute="leading" id="iSu-MN-SK5"/>
+                            <constraint firstItem="HoW-zK-AWA" firstAttribute="leading" secondItem="32y-Ic-77H" secondAttribute="leading" constant="20" id="lfX-cn-15p"/>
+                            <constraint firstItem="oWj-rb-Bp6" firstAttribute="centerX" secondItem="32y-Ic-77H" secondAttribute="centerX" id="r2P-J2-ffh"/>
+                            <constraint firstItem="oWj-rb-Bp6" firstAttribute="top" secondItem="HoW-zK-AWA" secondAttribute="bottom" constant="48" id="sB8-mk-kf6"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="4hY-o4-wUh"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="94Q-a4-a8E" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1375" y="-265"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="51g-GV-6Ch">
+            <objects>
+                <viewController id="BRl-Kj-Xd0" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="J86-gl-Up3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="KyoChon Chicken" translatesAutoresizingMaskIntoConstraints="NO" id="RgZ-dX-VOQ">
+                                <rect key="frame" x="0.0" y="44" width="414" height="290"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="RgZ-dX-VOQ" secondAttribute="height" multiplier="207:145" id="yyI-1N-PhX"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="KyoChon Chicken" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sXe-aN-8cw">
+                                <rect key="frame" x="0.0" y="352" width="414" height="33"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cfr-6u-HqQ">
+                                <rect key="frame" x="20" y="409" width="374" height="267"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="256" id="oeq-Ff-TQh"/>
+                                </constraints>
+                                <mutableString key="text">Kyochon has established itself as a leader in its field since it was first established in 1991.
+We are proud to showcase the authentic Korean flavor to fried chicken, and will continue to expand its franchises globally, to share authentic Korean flavor with the world. </mutableString>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UsN-SJ-tSM">
+                                <rect key="frame" x="109" y="713" width="196" height="82"/>
+                                <color key="backgroundColor" red="0.60574042800000005" green="0.11049894239999999" blue="0.1215385571" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="196" id="3Sq-0m-1jP"/>
+                                    <constraint firstAttribute="height" constant="82" id="eSp-Dg-xWc"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="30"/>
+                                <state key="normal" title="See Menu">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Fey-pQ-CeT"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="cfr-6u-HqQ" firstAttribute="trailing" secondItem="Fey-pQ-CeT" secondAttribute="trailing" constant="-20" id="4Cm-lO-Hsy"/>
+                            <constraint firstItem="cfr-6u-HqQ" firstAttribute="leading" secondItem="Fey-pQ-CeT" secondAttribute="leading" constant="20" id="6t1-wY-2kw"/>
+                            <constraint firstItem="RgZ-dX-VOQ" firstAttribute="leading" secondItem="Fey-pQ-CeT" secondAttribute="leading" id="Egs-70-4Zm"/>
+                            <constraint firstItem="RgZ-dX-VOQ" firstAttribute="top" secondItem="Fey-pQ-CeT" secondAttribute="top" id="GUH-aP-7BY"/>
+                            <constraint firstItem="sXe-aN-8cw" firstAttribute="trailing" secondItem="Fey-pQ-CeT" secondAttribute="trailing" id="QT0-3Q-gYw"/>
+                            <constraint firstItem="RgZ-dX-VOQ" firstAttribute="trailing" secondItem="Fey-pQ-CeT" secondAttribute="trailing" id="bVg-2y-l4V"/>
+                            <constraint firstItem="sXe-aN-8cw" firstAttribute="leading" secondItem="Fey-pQ-CeT" secondAttribute="leading" id="fV7-sI-ITt"/>
+                            <constraint firstItem="UsN-SJ-tSM" firstAttribute="top" secondItem="cfr-6u-HqQ" secondAttribute="bottom" constant="48" id="iqp-5R-FCK"/>
+                            <constraint firstItem="sXe-aN-8cw" firstAttribute="top" secondItem="RgZ-dX-VOQ" secondAttribute="bottom" constant="18" id="me2-eH-iiO"/>
+                            <constraint firstItem="UsN-SJ-tSM" firstAttribute="centerX" secondItem="Fey-pQ-CeT" secondAttribute="centerX" id="rJF-ud-6Z3"/>
+                            <constraint firstItem="cfr-6u-HqQ" firstAttribute="top" secondItem="sXe-aN-8cw" secondAttribute="bottom" constant="24" id="ryN-Ph-Ojb"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3UL-a5-MWC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="630.43478260869574" y="402.45535714285711"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Qaq-1x-Kb3">
+            <objects>
+                <viewController id="3Tv-iO-VhL" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="lho-Xd-vCK">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="胖胖豬" translatesAutoresizingMaskIntoConstraints="NO" id="6mp-wt-kuj">
+                                <rect key="frame" x="0.0" y="44" width="414" height="290"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="6mp-wt-kuj" secondAttribute="height" multiplier="207:145" id="YNt-Cm-6JM"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="胖胖豬烤肉" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1aA-4F-DAr">
+                                <rect key="frame" x="0.0" y="352" width="414" height="33"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tyR-K1-hcQ">
+                                <rect key="frame" x="20" y="409" width="374" height="267"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="256" id="L5X-SH-VfZ"/>
+                                </constraints>
+                                <string key="text">胖胖豬烤肉，經典的韓式烤肉燒肉，下午3點才開始營業，很適合當成晚餐或是消夜，有中、英、日、韓文對照的菜單，所以，不用擔心如何點餐，而選項以5款肉品為主，也不會看得眼花撩亂，入夜之後的弘大，有許多街頭表演，
+逛累了來吃頓飯
+</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bN1-sd-Q0G">
+                                <rect key="frame" x="109" y="713" width="196" height="82"/>
+                                <color key="backgroundColor" red="0.60574042800000005" green="0.11049894239999999" blue="0.1215385571" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="82" id="7F7-zW-4uo"/>
+                                    <constraint firstAttribute="width" constant="196" id="Bcp-RM-E6O"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="30"/>
+                                <state key="normal" title="See Menu">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="z1c-6M-eNq"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="tyR-K1-hcQ" firstAttribute="top" secondItem="1aA-4F-DAr" secondAttribute="bottom" constant="24" id="3HQ-TT-Ebv"/>
+                            <constraint firstItem="1aA-4F-DAr" firstAttribute="trailing" secondItem="z1c-6M-eNq" secondAttribute="trailing" id="4oD-ea-DqS"/>
+                            <constraint firstItem="6mp-wt-kuj" firstAttribute="top" secondItem="z1c-6M-eNq" secondAttribute="top" id="73B-8Z-vhC"/>
+                            <constraint firstItem="1aA-4F-DAr" firstAttribute="leading" secondItem="z1c-6M-eNq" secondAttribute="leading" id="AGY-mD-O3g"/>
+                            <constraint firstItem="1aA-4F-DAr" firstAttribute="top" secondItem="6mp-wt-kuj" secondAttribute="bottom" constant="18" id="MQ8-ig-WD5"/>
+                            <constraint firstItem="6mp-wt-kuj" firstAttribute="leading" secondItem="z1c-6M-eNq" secondAttribute="leading" id="NhS-OZ-rUc"/>
+                            <constraint firstItem="tyR-K1-hcQ" firstAttribute="leading" secondItem="z1c-6M-eNq" secondAttribute="leading" constant="20" id="RWv-ob-4Zg"/>
+                            <constraint firstItem="tyR-K1-hcQ" firstAttribute="trailing" secondItem="z1c-6M-eNq" secondAttribute="trailing" constant="-20" id="UrI-hb-fuZ"/>
+                            <constraint firstItem="6mp-wt-kuj" firstAttribute="trailing" secondItem="z1c-6M-eNq" secondAttribute="trailing" id="iFp-kw-LIq"/>
+                            <constraint firstItem="bN1-sd-Q0G" firstAttribute="centerX" secondItem="z1c-6M-eNq" secondAttribute="centerX" id="muR-on-Koj"/>
+                            <constraint firstItem="bN1-sd-Q0G" firstAttribute="top" secondItem="tyR-K1-hcQ" secondAttribute="bottom" constant="48" id="rxI-2v-nhr"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="agk-Py-LNd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1374" y="402"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Jin Fu Palace" width="1295" height="720"/>
+        <image name="KyoChon Chicken" width="1000" height="750"/>
+        <image name="namsan tower" width="700" height="525"/>
+        <image name="胖胖豬" width="1192" height="844"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

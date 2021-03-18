@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C74E594260351DC00CCF8FC /* Bangkok.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C74E593260351DC00CCF8FC /* Bangkok.storyboard */; };
+		0C74E59D260354CF00CCF8FC /* Osaka.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C74E597260354CE00CCF8FC /* Osaka.storyboard */; };
+		0C74E59E260354CF00CCF8FC /* Sabah.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C74E598260354CE00CCF8FC /* Sabah.storyboard */; };
+		0C74E59F260354CF00CCF8FC /* Kyoto.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C74E599260354CE00CCF8FC /* Kyoto.storyboard */; };
+		0C74E5A0260354CF00CCF8FC /* KUL.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C74E59A260354CF00CCF8FC /* KUL.storyboard */; };
+		0C74E5A1260354CF00CCF8FC /* Sydney.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C74E59B260354CF00CCF8FC /* Sydney.storyboard */; };
+		0C74E5A2260354CF00CCF8FC /* Tokyo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C74E59C260354CF00CCF8FC /* Tokyo.storyboard */; };
 		0CFEA40725FB709F0075AC6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CFEA40625FB709F0075AC6D /* AppDelegate.swift */; };
 		0CFEA40925FB709F0075AC6D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CFEA40825FB709F0075AC6D /* SceneDelegate.swift */; };
 		0CFEA40E25FB709F0075AC6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CFEA40C25FB709F0075AC6D /* Main.storyboard */; };
@@ -17,11 +24,17 @@
 		0CFEA42E25FF45FB0075AC6D /* Travel.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CFEA42D25FF45FB0075AC6D /* Travel.storyboard */; };
 		0CFEA43225FF51850075AC6D /* GoldCoast.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CFEA43125FF51850075AC6D /* GoldCoast.storyboard */; };
 		0CFEA43525FF56380075AC6D /* Seoul.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CFEA43425FF56380075AC6D /* Seoul.storyboard */; };
-		0CFEA43825FF57E80075AC6D /* Bangkok.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CFEA43725FF57E80075AC6D /* Bangkok.storyboard */; };
 		0CFEA43B25FF58B90075AC6D /* ChiangMai.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CFEA43A25FF58B90075AC6D /* ChiangMai.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C74E593260351DC00CCF8FC /* Bangkok.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Bangkok.storyboard; sourceTree = "<group>"; };
+		0C74E597260354CE00CCF8FC /* Osaka.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Osaka.storyboard; sourceTree = "<group>"; };
+		0C74E598260354CE00CCF8FC /* Sabah.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Sabah.storyboard; sourceTree = "<group>"; };
+		0C74E599260354CE00CCF8FC /* Kyoto.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Kyoto.storyboard; sourceTree = "<group>"; };
+		0C74E59A260354CF00CCF8FC /* KUL.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = KUL.storyboard; sourceTree = "<group>"; };
+		0C74E59B260354CF00CCF8FC /* Sydney.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Sydney.storyboard; sourceTree = "<group>"; };
+		0C74E59C260354CF00CCF8FC /* Tokyo.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Tokyo.storyboard; sourceTree = "<group>"; };
 		0CFEA40325FB709F0075AC6D /* TravelBlogger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TravelBlogger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CFEA40625FB709F0075AC6D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0CFEA40825FB709F0075AC6D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -34,7 +47,6 @@
 		0CFEA42D25FF45FB0075AC6D /* Travel.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Travel.storyboard; sourceTree = "<group>"; };
 		0CFEA43125FF51850075AC6D /* GoldCoast.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = GoldCoast.storyboard; sourceTree = "<group>"; };
 		0CFEA43425FF56380075AC6D /* Seoul.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Seoul.storyboard; sourceTree = "<group>"; };
-		0CFEA43725FF57E80075AC6D /* Bangkok.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Bangkok.storyboard; sourceTree = "<group>"; };
 		0CFEA43A25FF58B90075AC6D /* ChiangMai.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ChiangMai.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -49,6 +61,63 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C74E5A4260354D500CCF8FC /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				0C74E5A92603550A00CCF8FC /* Korea */,
+				0C74E5A82603550000CCF8FC /* Australia */,
+				0C74E5A7260354F700CCF8FC /* Thailand */,
+				0C74E5A6260354EC00CCF8FC /* Malaysia */,
+				0C74E5A5260354E200CCF8FC /* Japan */,
+			);
+			path = Location;
+			sourceTree = "<group>";
+		};
+		0C74E5A5260354E200CCF8FC /* Japan */ = {
+			isa = PBXGroup;
+			children = (
+				0C74E599260354CE00CCF8FC /* Kyoto.storyboard */,
+				0C74E597260354CE00CCF8FC /* Osaka.storyboard */,
+				0C74E59C260354CF00CCF8FC /* Tokyo.storyboard */,
+			);
+			path = Japan;
+			sourceTree = "<group>";
+		};
+		0C74E5A6260354EC00CCF8FC /* Malaysia */ = {
+			isa = PBXGroup;
+			children = (
+				0C74E598260354CE00CCF8FC /* Sabah.storyboard */,
+				0C74E59A260354CF00CCF8FC /* KUL.storyboard */,
+			);
+			path = Malaysia;
+			sourceTree = "<group>";
+		};
+		0C74E5A7260354F700CCF8FC /* Thailand */ = {
+			isa = PBXGroup;
+			children = (
+				0C74E593260351DC00CCF8FC /* Bangkok.storyboard */,
+				0CFEA43A25FF58B90075AC6D /* ChiangMai.storyboard */,
+			);
+			path = Thailand;
+			sourceTree = "<group>";
+		};
+		0C74E5A82603550000CCF8FC /* Australia */ = {
+			isa = PBXGroup;
+			children = (
+				0C74E59B260354CF00CCF8FC /* Sydney.storyboard */,
+				0CFEA43125FF51850075AC6D /* GoldCoast.storyboard */,
+			);
+			path = Australia;
+			sourceTree = "<group>";
+		};
+		0C74E5A92603550A00CCF8FC /* Korea */ = {
+			isa = PBXGroup;
+			children = (
+				0CFEA43425FF56380075AC6D /* Seoul.storyboard */,
+			);
+			path = Korea;
+			sourceTree = "<group>";
+		};
 		0CFEA3FA25FB709E0075AC6D = {
 			isa = PBXGroup;
 			children = (
@@ -68,14 +137,11 @@
 		0CFEA40525FB709F0075AC6D /* TravelBlogger */ = {
 			isa = PBXGroup;
 			children = (
+				0C74E5A4260354D500CCF8FC /* Location */,
 				0CFEA42825FF3C2E0075AC6D /* Font */,
 				0CFEA40625FB709F0075AC6D /* AppDelegate.swift */,
 				0CFEA40825FB709F0075AC6D /* SceneDelegate.swift */,
 				0CFEA42D25FF45FB0075AC6D /* Travel.storyboard */,
-				0CFEA43125FF51850075AC6D /* GoldCoast.storyboard */,
-				0CFEA43425FF56380075AC6D /* Seoul.storyboard */,
-				0CFEA43725FF57E80075AC6D /* Bangkok.storyboard */,
-				0CFEA43A25FF58B90075AC6D /* ChiangMai.storyboard */,
 				0CFEA40C25FB709F0075AC6D /* Main.storyboard */,
 				0CFEA42525FB75790075AC6D /* Me.storyboard */,
 				0CFEA40F25FB70A70075AC6D /* Assets.xcassets */,
@@ -151,13 +217,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				0CFEA42A25FF3C4D0075AC6D /* crayon_1-1.ttf in Resources */,
-				0CFEA43825FF57E80075AC6D /* Bangkok.storyboard in Resources */,
 				0CFEA41325FB70A70075AC6D /* LaunchScreen.storyboard in Resources */,
+				0C74E59D260354CF00CCF8FC /* Osaka.storyboard in Resources */,
+				0C74E5A1260354CF00CCF8FC /* Sydney.storyboard in Resources */,
 				0CFEA41025FB70A70075AC6D /* Assets.xcassets in Resources */,
 				0CFEA42625FB75790075AC6D /* Me.storyboard in Resources */,
 				0CFEA42E25FF45FB0075AC6D /* Travel.storyboard in Resources */,
+				0C74E59E260354CF00CCF8FC /* Sabah.storyboard in Resources */,
+				0C74E5A0260354CF00CCF8FC /* KUL.storyboard in Resources */,
 				0CFEA40E25FB709F0075AC6D /* Main.storyboard in Resources */,
+				0C74E594260351DC00CCF8FC /* Bangkok.storyboard in Resources */,
 				0CFEA43225FF51850075AC6D /* GoldCoast.storyboard in Resources */,
+				0C74E59F260354CF00CCF8FC /* Kyoto.storyboard in Resources */,
+				0C74E5A2260354CF00CCF8FC /* Tokyo.storyboard in Resources */,
 				0CFEA43B25FF58B90075AC6D /* ChiangMai.storyboard in Resources */,
 				0CFEA43525FF56380075AC6D /* Seoul.storyboard in Resources */,
 			);
