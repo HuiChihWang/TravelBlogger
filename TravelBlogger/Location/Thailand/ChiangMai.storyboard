@@ -1,32 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="PS1-zt-2NV">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--Table View Controller-->
-        <scene sceneID="le6-NJ-qw1">
+        <scene sceneID="yf4-8n-UPH">
             <objects>
-                <tableViewController id="S4f-hB-ZRD" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" id="HhJ-MT-pYa">
+                <tableViewController id="PS1-zt-2NV" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" id="OVu-fA-LJE">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <sections>
-                            <tableViewSection headerTitle="Place" id="H7b-Vd-zd8">
+                            <tableViewSection headerTitle="Place" id="7DQ-zz-Ppz">
                                 <cells>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="7XS-np-Qnz">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="sOa-ch-ISM">
                                         <rect key="frame" x="0.0" y="55.5" width="414" height="43.5"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="7XS-np-Qnz" id="wf5-5h-lyw">
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="sOa-ch-ISM" id="jfY-Y2-fLY">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Night Zoo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L8J-j4-phn">
-                                                    <rect key="frame" x="20" y="11" width="95" height="27"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Chiang Mai Night Safari" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Ew-xG-gLZ">
+                                                    <rect key="frame" x="20" y="11" width="224" height="27"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                                     <nil key="textColor"/>
@@ -34,16 +35,19 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="cOx-oy-0Vg" kind="presentation" id="Fha-n8-96T"/>
+                                        </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="CYV-ak-aQp">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="B6J-dZ-c3F">
                                         <rect key="frame" x="0.0" y="99" width="414" height="43.5"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="CYV-ak-aQp" id="LB5-Hj-OSV">
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="B6J-dZ-c3F" id="Z86-Uk-E4s">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="White Temple" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Jp-ba-Ibh">
-                                                    <rect key="frame" x="20" y="11" width="130" height="27"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Wat Rong Khun" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sn6-S3-2RG">
+                                                    <rect key="frame" x="20" y="11" width="147" height="27"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                                     <nil key="textColor"/>
@@ -51,19 +55,22 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="0eG-Yj-KES" kind="presentation" id="KfV-pr-Qo6"/>
+                                        </connections>
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
-                            <tableViewSection headerTitle="Food" id="ewQ-55-Lgw">
+                            <tableViewSection headerTitle="Food" id="5Zs-XF-Dzb">
                                 <cells>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="Z7s-53-W90">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="Ync-JX-363">
                                         <rect key="frame" x="0.0" y="198.5" width="414" height="43.5"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Z7s-53-W90" id="bXS-Xf-XNV">
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Ync-JX-363" id="NWK-1p-X4z">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="IBerry Garden" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yxu-Xm-Q99">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="IBerry Garden" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k8N-fa-wYs">
                                                     <rect key="frame" x="20" y="11" width="132" height="27"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="22"/>
@@ -72,15 +79,18 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="TRJ-Go-nCi" kind="presentation" id="7Je-lM-5cN"/>
+                                        </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="pHs-ZU-p2a">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="W9Z-rK-EiW">
                                         <rect key="frame" x="0.0" y="242" width="414" height="43.5"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="pHs-ZU-p2a" id="0ZA-3L-psR">
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="W9Z-rK-EiW" id="JbW-BN-GaZ">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Maesai Khao Soy Kai" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="61M-L3-YsZ">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Maesai Khao Soy Kai" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WFI-c7-6KI">
                                                     <rect key="frame" x="20" y="11" width="198" height="27"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="22"/>
@@ -89,22 +99,293 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="BhU-HK-1ac" kind="presentation" id="NeP-3F-G7H"/>
+                                        </connections>
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
                         </sections>
                         <connections>
-                            <outlet property="dataSource" destination="S4f-hB-ZRD" id="Jc6-SE-SiO"/>
-                            <outlet property="delegate" destination="S4f-hB-ZRD" id="r0n-0G-vfp"/>
+                            <outlet property="dataSource" destination="PS1-zt-2NV" id="015-jb-0Gx"/>
+                            <outlet property="delegate" destination="PS1-zt-2NV" id="y2U-eo-RJs"/>
                         </connections>
                     </tableView>
                 </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="i7e-Rv-Zzd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6bc-E0-BoK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-319" y="100"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="VGL-65-6L2">
+            <objects>
+                <viewController id="cOx-oy-0Vg" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Q3e-ib-Xad">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="chiang mai night safari" translatesAutoresizingMaskIntoConstraints="NO" id="OX7-hk-9ch">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="290"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="OX7-hk-9ch" secondAttribute="height" multiplier="207:145" id="eFu-yj-Ac6"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chiang Mai Night Safari" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NYq-80-wFm">
+                                <rect key="frame" x="0.0" y="308" width="414" height="33"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Hny-tY-R4a">
+                                <rect key="frame" x="20" y="365" width="374" height="256"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="256" id="Ko8-Z9-pn5"/>
+                                </constraints>
+                                <string key="text">Chiang Mai Night Safari park was modeled after the Singapore Night Safari. The concept of the park is to provide visitors with a thrilling experience similar to being out in the wilderness at night.</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="596-79-Phq">
+                                <rect key="frame" x="109" y="669" width="196" height="82"/>
+                                <color key="backgroundColor" red="0.60574042800000005" green="0.11049894239999999" blue="0.1215385571" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="82" id="D5F-QT-ChJ"/>
+                                    <constraint firstAttribute="width" constant="196" id="Hbu-Bj-ZHf"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="30"/>
+                                <state key="normal" title="Book Now">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="C2m-aq-dZC"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="NYq-80-wFm" firstAttribute="trailing" secondItem="C2m-aq-dZC" secondAttribute="trailing" id="0JB-bg-eFA"/>
+                            <constraint firstItem="Hny-tY-R4a" firstAttribute="top" secondItem="NYq-80-wFm" secondAttribute="bottom" constant="24" id="778-2t-vq2"/>
+                            <constraint firstItem="OX7-hk-9ch" firstAttribute="trailing" secondItem="C2m-aq-dZC" secondAttribute="trailing" id="7nD-9K-q7F"/>
+                            <constraint firstItem="NYq-80-wFm" firstAttribute="leading" secondItem="C2m-aq-dZC" secondAttribute="leading" id="HIC-3I-FI2"/>
+                            <constraint firstItem="NYq-80-wFm" firstAttribute="top" secondItem="OX7-hk-9ch" secondAttribute="bottom" constant="18" id="Koy-1d-AJB"/>
+                            <constraint firstItem="596-79-Phq" firstAttribute="top" secondItem="Hny-tY-R4a" secondAttribute="bottom" constant="48" id="KqL-qr-I1t"/>
+                            <constraint firstItem="Hny-tY-R4a" firstAttribute="trailing" secondItem="C2m-aq-dZC" secondAttribute="trailing" constant="-20" id="Lu8-n7-m0B"/>
+                            <constraint firstItem="OX7-hk-9ch" firstAttribute="leading" secondItem="C2m-aq-dZC" secondAttribute="leading" id="dNQ-7A-zvm"/>
+                            <constraint firstItem="Hny-tY-R4a" firstAttribute="leading" secondItem="C2m-aq-dZC" secondAttribute="leading" constant="20" id="oii-4I-7Jc"/>
+                            <constraint firstItem="596-79-Phq" firstAttribute="centerX" secondItem="C2m-aq-dZC" secondAttribute="centerX" id="sID-6E-Vag"/>
+                            <constraint firstItem="OX7-hk-9ch" firstAttribute="top" secondItem="C2m-aq-dZC" secondAttribute="top" id="ygQ-2A-MwL"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="4NP-DB-0Rv"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="d9S-6x-bEi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="632" y="-271"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="s0s-1r-ThV">
+            <objects>
+                <viewController id="0eG-Yj-KES" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="U5H-xS-OBq">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Wat Rong Khun" translatesAutoresizingMaskIntoConstraints="NO" id="TIM-QV-06q">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="290"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="TIM-QV-06q" secondAttribute="height" multiplier="207:145" id="HfA-fm-Xlr"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wat Rong Khun" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CD9-77-Z1y">
+                                <rect key="frame" x="0.0" y="308" width="414" height="33"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Dh2-7H-y8M">
+                                <rect key="frame" x="20" y="365" width="374" height="256"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="256" id="EoG-yB-huK"/>
+                                </constraints>
+                                <string key="text">Wat Rong Khun, better known as “the White Temple” is one of the most recognizable temples in Thailand. The temple outside the town of Chiang Rai attracts a large number of visitors, both Thai and foreign, making it one of Chiang Rai’s most visited attractions.</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gVC-g5-1Fa">
+                                <rect key="frame" x="109" y="669" width="196" height="82"/>
+                                <color key="backgroundColor" red="0.60574042800000005" green="0.11049894239999999" blue="0.1215385571" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="196" id="HUs-yh-a5T"/>
+                                    <constraint firstAttribute="height" constant="82" id="eVa-8d-Udi"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="30"/>
+                                <state key="normal" title="Book Now">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="pqH-Yw-80F"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Dh2-7H-y8M" firstAttribute="trailing" secondItem="pqH-Yw-80F" secondAttribute="trailing" constant="-20" id="07m-sx-vN0"/>
+                            <constraint firstItem="TIM-QV-06q" firstAttribute="trailing" secondItem="pqH-Yw-80F" secondAttribute="trailing" id="0ip-MK-AWn"/>
+                            <constraint firstItem="TIM-QV-06q" firstAttribute="top" secondItem="pqH-Yw-80F" secondAttribute="top" id="GKT-CD-W5w"/>
+                            <constraint firstItem="CD9-77-Z1y" firstAttribute="top" secondItem="TIM-QV-06q" secondAttribute="bottom" constant="18" id="TLk-Go-7gW"/>
+                            <constraint firstItem="gVC-g5-1Fa" firstAttribute="centerX" secondItem="pqH-Yw-80F" secondAttribute="centerX" id="YGZ-0d-j0U"/>
+                            <constraint firstItem="CD9-77-Z1y" firstAttribute="trailing" secondItem="pqH-Yw-80F" secondAttribute="trailing" id="ZHf-3n-V6r"/>
+                            <constraint firstItem="Dh2-7H-y8M" firstAttribute="leading" secondItem="pqH-Yw-80F" secondAttribute="leading" constant="20" id="baG-cU-t7S"/>
+                            <constraint firstItem="CD9-77-Z1y" firstAttribute="leading" secondItem="pqH-Yw-80F" secondAttribute="leading" id="ffC-XE-q4B"/>
+                            <constraint firstItem="TIM-QV-06q" firstAttribute="leading" secondItem="pqH-Yw-80F" secondAttribute="leading" id="hUv-hG-2T0"/>
+                            <constraint firstItem="gVC-g5-1Fa" firstAttribute="top" secondItem="Dh2-7H-y8M" secondAttribute="bottom" constant="48" id="ran-oS-ZGn"/>
+                            <constraint firstItem="Dh2-7H-y8M" firstAttribute="top" secondItem="CD9-77-Z1y" secondAttribute="bottom" constant="24" id="uNE-fJ-acB"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RbK-aX-7U9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1377" y="-271"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="rJK-uM-z5x">
+            <objects>
+                <viewController id="BhU-HK-1ac" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="imM-5U-R1t">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Maesai Khao Soy Kai" translatesAutoresizingMaskIntoConstraints="NO" id="jbw-pH-rh3">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="290"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="jbw-pH-rh3" secondAttribute="height" multiplier="207:145" id="76h-Zv-dhp"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Maesai Khao Soy Kai" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="08Y-4N-mxH">
+                                <rect key="frame" x="0.0" y="308" width="414" height="33"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nRd-YE-jm1">
+                                <rect key="frame" x="20" y="365" width="374" height="256"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="256" id="Dli-s5-wt1"/>
+                                </constraints>
+                                <string key="text">說到清邁美食，一定會想到 咖哩雞肉麵 。而說到清邁的泰北小吃，那要聯想到的一定會是這間「Maesai khao soy kai/ ร้านข้าวซอยแม่สาย」。Maesai 是店名，khao soy kai 則是咖哩雞肉麵的意思。如果住在尼曼區附近的人，建議可以考慮把這間銅板美食排進行程中！</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xgU-zb-adh">
+                                <rect key="frame" x="109" y="669" width="196" height="82"/>
+                                <color key="backgroundColor" red="0.60574042800000005" green="0.11049894239999999" blue="0.1215385571" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="82" id="6fm-5w-tuo"/>
+                                    <constraint firstAttribute="width" constant="196" id="Gej-w3-OWS"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="30"/>
+                                <state key="normal" title="See Menu">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Ugk-Hp-ewK"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="08Y-4N-mxH" firstAttribute="top" secondItem="jbw-pH-rh3" secondAttribute="bottom" constant="18" id="3Aq-cE-O7p"/>
+                            <constraint firstItem="jbw-pH-rh3" firstAttribute="top" secondItem="Ugk-Hp-ewK" secondAttribute="top" id="6mw-ZM-8v8"/>
+                            <constraint firstItem="nRd-YE-jm1" firstAttribute="trailing" secondItem="Ugk-Hp-ewK" secondAttribute="trailing" constant="-20" id="BVj-IL-qa7"/>
+                            <constraint firstItem="nRd-YE-jm1" firstAttribute="top" secondItem="08Y-4N-mxH" secondAttribute="bottom" constant="24" id="Cca-GN-y58"/>
+                            <constraint firstItem="08Y-4N-mxH" firstAttribute="leading" secondItem="Ugk-Hp-ewK" secondAttribute="leading" id="E7i-WG-Alt"/>
+                            <constraint firstItem="xgU-zb-adh" firstAttribute="top" secondItem="nRd-YE-jm1" secondAttribute="bottom" constant="48" id="FA3-Tm-Jfh"/>
+                            <constraint firstItem="xgU-zb-adh" firstAttribute="centerX" secondItem="Ugk-Hp-ewK" secondAttribute="centerX" id="Wz6-A9-N12"/>
+                            <constraint firstItem="jbw-pH-rh3" firstAttribute="trailing" secondItem="Ugk-Hp-ewK" secondAttribute="trailing" id="dHp-oC-ifp"/>
+                            <constraint firstItem="08Y-4N-mxH" firstAttribute="trailing" secondItem="Ugk-Hp-ewK" secondAttribute="trailing" id="e0E-PK-oqM"/>
+                            <constraint firstItem="nRd-YE-jm1" firstAttribute="leading" secondItem="Ugk-Hp-ewK" secondAttribute="leading" constant="20" id="xsH-Hv-fPE"/>
+                            <constraint firstItem="jbw-pH-rh3" firstAttribute="leading" secondItem="Ugk-Hp-ewK" secondAttribute="leading" id="z1G-UN-wbC"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="61K-KK-1RA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1377" y="403"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="aD6-iM-5N1">
+            <objects>
+                <viewController id="TRJ-Go-nCi" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Jwu-ig-p54">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IBerry Garden" translatesAutoresizingMaskIntoConstraints="NO" id="f71-4B-IAf">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="290"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="f71-4B-IAf" secondAttribute="height" multiplier="207:145" id="AZM-m3-nHg"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="IBerry Garden" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EcJ-u2-5NS">
+                                <rect key="frame" x="0.0" y="308" width="414" height="33"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ffu-19-zL8">
+                                <rect key="frame" x="20" y="409" width="374" height="267"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="256" id="0Ac-1J-6u4"/>
+                                </constraints>
+                                <string key="text">iBerry創店在1999年，號稱是泰國第一家手工製作冰淇淋店！老店在清邁，現在曼谷許多百貨也有分店了。在清邁寧曼商圈iBerry Garden，有尊巨形人頭狗身像，成了來清邁對手工冰淇淋朝聖必拜必拍照的景點LOGO，看到這尊iBerry吉祥物，問路或給司機看，他們馬上會知道路。iBerry不只是中國人愛來、泰國人也愛來這拍照打卡。</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vfl-FA-Cnl">
+                                <rect key="frame" x="109" y="669" width="196" height="82"/>
+                                <color key="backgroundColor" red="0.60574042800000005" green="0.11049894239999999" blue="0.1215385571" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="196" id="575-ds-nHj"/>
+                                    <constraint firstAttribute="height" constant="82" id="Hdr-Uh-8Ks"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="30"/>
+                                <state key="normal" title="See Menu">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Wao-pN-odr"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Ffu-19-zL8" firstAttribute="top" secondItem="EcJ-u2-5NS" secondAttribute="bottom" constant="24" id="2MW-Bd-XkE"/>
+                            <constraint firstItem="EcJ-u2-5NS" firstAttribute="leading" secondItem="Wao-pN-odr" secondAttribute="leading" id="GEf-JN-Jgf"/>
+                            <constraint firstItem="f71-4B-IAf" firstAttribute="top" secondItem="Wao-pN-odr" secondAttribute="top" id="GqF-Fb-BDT"/>
+                            <constraint firstItem="EcJ-u2-5NS" firstAttribute="top" secondItem="f71-4B-IAf" secondAttribute="bottom" constant="18" id="PZb-he-dpc"/>
+                            <constraint firstItem="EcJ-u2-5NS" firstAttribute="trailing" secondItem="Wao-pN-odr" secondAttribute="trailing" id="TOw-o3-9Dm"/>
+                            <constraint firstItem="Vfl-FA-Cnl" firstAttribute="top" secondItem="Ffu-19-zL8" secondAttribute="bottom" constant="48" id="VAh-Yf-7hb"/>
+                            <constraint firstItem="Vfl-FA-Cnl" firstAttribute="centerX" secondItem="Wao-pN-odr" secondAttribute="centerX" id="a7o-7X-cNY"/>
+                            <constraint firstItem="f71-4B-IAf" firstAttribute="leading" secondItem="Wao-pN-odr" secondAttribute="leading" id="gIv-ik-QaX"/>
+                            <constraint firstItem="Ffu-19-zL8" firstAttribute="trailing" secondItem="Wao-pN-odr" secondAttribute="trailing" constant="-20" id="kJS-CP-rQg"/>
+                            <constraint firstItem="f71-4B-IAf" firstAttribute="trailing" secondItem="Wao-pN-odr" secondAttribute="trailing" id="kqN-R3-Ucg"/>
+                            <constraint firstItem="Ffu-19-zL8" firstAttribute="leading" secondItem="Wao-pN-odr" secondAttribute="leading" constant="20" id="uS9-Vd-DHd"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MSA-xR-iWb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="630.43478260869574" y="402.45535714285711"/>
+        </scene>
     </scenes>
     <resources>
+        <image name="IBerry Garden" width="1600" height="898"/>
+        <image name="Maesai Khao Soy Kai" width="1024" height="684"/>
+        <image name="Wat Rong Khun" width="3000" height="2000"/>
+        <image name="chiang mai night safari" width="1295" height="720"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

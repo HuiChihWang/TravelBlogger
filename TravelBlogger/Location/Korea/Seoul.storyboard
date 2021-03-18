@@ -35,6 +35,9 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="FY2-1S-mtn" kind="presentation" id="dsN-vh-aQB"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="WGe-8w-Efk">
                                         <rect key="frame" x="0.0" y="99" width="414" height="43.5"/>
@@ -52,6 +55,9 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="UbF-T5-r6Q" kind="presentation" id="SOH-tJ-5lH"/>
+                                        </connections>
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
@@ -73,6 +79,9 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="BRl-Kj-Xd0" kind="presentation" id="72Z-Gr-hRZ"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="mH4-Fm-1Fp">
                                         <rect key="frame" x="0.0" y="242" width="414" height="43.5"/>
@@ -90,6 +99,9 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="3Tv-iO-VhL" kind="presentation" id="Law-7K-CKM"/>
+                                        </connections>
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
@@ -109,23 +121,23 @@
             <objects>
                 <viewController id="FY2-1S-mtn" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8Ql-yX-3Cd">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Jin Fu Palace" translatesAutoresizingMaskIntoConstraints="NO" id="iJe-VU-7NT">
-                                <rect key="frame" x="0.0" y="44" width="414" height="290"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="290"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="iJe-VU-7NT" secondAttribute="height" multiplier="207:145" id="Dwf-Rv-vOX"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jing Fu Palace" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CHC-x4-xrX">
-                                <rect key="frame" x="0.0" y="352" width="414" height="33"/>
+                                <rect key="frame" x="0.0" y="308" width="414" height="33"/>
                                 <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="x07-3t-jst">
-                                <rect key="frame" x="20" y="409" width="374" height="256"/>
+                                <rect key="frame" x="20" y="365" width="374" height="256"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="256" id="QnW-xB-x32"/>
@@ -136,7 +148,7 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zzo-mn-pVc">
-                                <rect key="frame" x="109" y="713" width="196" height="82"/>
+                                <rect key="frame" x="109" y="669" width="196" height="82"/>
                                 <color key="backgroundColor" red="0.60574042800000005" green="0.11049894239999999" blue="0.1215385571" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="82" id="Chf-1a-vBW"/>
@@ -175,23 +187,23 @@
             <objects>
                 <viewController id="UbF-T5-r6Q" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="pd2-eh-e27">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="namsan tower" translatesAutoresizingMaskIntoConstraints="NO" id="b0Z-dT-zbA">
-                                <rect key="frame" x="0.0" y="44" width="414" height="290"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="290"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="b0Z-dT-zbA" secondAttribute="height" multiplier="207:145" id="554-nj-Hda"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Namsan Tower" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LRD-gv-WGQ">
-                                <rect key="frame" x="0.0" y="352" width="414" height="33"/>
+                                <rect key="frame" x="0.0" y="308" width="414" height="33"/>
                                 <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HoW-zK-AWA">
-                                <rect key="frame" x="20" y="409" width="374" height="256"/>
+                                <rect key="frame" x="20" y="365" width="374" height="256"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="256" id="eNc-Br-C93"/>
@@ -202,7 +214,7 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oWj-rb-Bp6">
-                                <rect key="frame" x="109" y="713" width="196" height="82"/>
+                                <rect key="frame" x="109" y="669" width="196" height="82"/>
                                 <color key="backgroundColor" red="0.60574042800000005" green="0.11049894239999999" blue="0.1215385571" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="196" id="g3K-eN-c9g"/>
@@ -241,17 +253,17 @@
             <objects>
                 <viewController id="BRl-Kj-Xd0" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="J86-gl-Up3">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="KyoChon Chicken" translatesAutoresizingMaskIntoConstraints="NO" id="RgZ-dX-VOQ">
-                                <rect key="frame" x="0.0" y="44" width="414" height="290"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="290"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="RgZ-dX-VOQ" secondAttribute="height" multiplier="207:145" id="yyI-1N-PhX"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="KyoChon Chicken" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sXe-aN-8cw">
-                                <rect key="frame" x="0.0" y="352" width="414" height="33"/>
+                                <rect key="frame" x="0.0" y="308" width="414" height="33"/>
                                 <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -262,14 +274,14 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="256" id="oeq-Ff-TQh"/>
                                 </constraints>
-                                <mutableString key="text">Kyochon has established itself as a leader in its field since it was first established in 1991.
-We are proud to showcase the authentic Korean flavor to fried chicken, and will continue to expand its franchises globally, to share authentic Korean flavor with the world. </mutableString>
+                                <string key="text">Kyochon has established itself as a leader in its field since it was first established in 1991.
+We are proud to showcase the authentic Korean flavor to fried chicken, and will continue to expand its franchises globally, to share authentic Korean flavor with the world. </string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="20"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UsN-SJ-tSM">
-                                <rect key="frame" x="109" y="713" width="196" height="82"/>
+                                <rect key="frame" x="109" y="669" width="196" height="82"/>
                                 <color key="backgroundColor" red="0.60574042800000005" green="0.11049894239999999" blue="0.1215385571" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="196" id="3Sq-0m-1jP"/>
@@ -307,17 +319,17 @@ We are proud to showcase the authentic Korean flavor to fried chicken, and will 
             <objects>
                 <viewController id="3Tv-iO-VhL" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="lho-Xd-vCK">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="胖胖豬" translatesAutoresizingMaskIntoConstraints="NO" id="6mp-wt-kuj">
-                                <rect key="frame" x="0.0" y="44" width="414" height="290"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="290"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="6mp-wt-kuj" secondAttribute="height" multiplier="207:145" id="YNt-Cm-6JM"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="胖胖豬烤肉" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1aA-4F-DAr">
-                                <rect key="frame" x="0.0" y="352" width="414" height="33"/>
+                                <rect key="frame" x="0.0" y="308" width="414" height="33"/>
                                 <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -336,7 +348,7 @@ We are proud to showcase the authentic Korean flavor to fried chicken, and will 
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bN1-sd-Q0G">
-                                <rect key="frame" x="109" y="713" width="196" height="82"/>
+                                <rect key="frame" x="109" y="669" width="196" height="82"/>
                                 <color key="backgroundColor" red="0.60574042800000005" green="0.11049894239999999" blue="0.1215385571" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="82" id="7F7-zW-4uo"/>

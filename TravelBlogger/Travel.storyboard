@@ -82,6 +82,9 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="EPc-4Y-AYA" kind="show" id="QQY-Zf-ycb"/>
+                                        </connections>
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
@@ -107,6 +110,9 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="Bfj-bp-hMY" kind="show" id="qZU-hc-aFD"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="153" id="W49-qb-Ebe">
                                         <rect key="frame" x="20" y="570.5" width="374" height="153"/>
@@ -128,6 +134,9 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="eHN-Td-SLo" kind="show" id="4v2-It-RDW"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="153" id="EeO-V9-YHd">
                                         <rect key="frame" x="20" y="723.5" width="374" height="153"/>
@@ -149,6 +158,9 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="QhN-ye-cqu" kind="show" id="QtY-P2-qVl"/>
+                                        </connections>
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
@@ -174,6 +186,9 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="yba-VG-30g" kind="show" id="RQc-e6-W4C"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="153" id="7eh-Oa-cnq">
                                         <rect key="frame" x="20" y="1085.5" width="374" height="153"/>
@@ -195,6 +210,9 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="x5i-70-Kq9" kind="show" id="Xt4-T0-VV7"/>
+                                        </connections>
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
@@ -220,6 +238,9 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="UTz-Vh-RxT" kind="show" id="r1a-Ml-KMU"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="153" id="Fa7-R6-IfZ">
                                         <rect key="frame" x="20" y="1447.5" width="374" height="153"/>
@@ -241,6 +262,9 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="nQT-gd-aRr" kind="show" id="uFZ-eN-S0u"/>
+                                        </connections>
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
@@ -266,6 +290,9 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="eF2-sQ-gfc" kind="show" id="JOV-bl-CeE"/>
+                                        </connections>
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
@@ -289,7 +316,97 @@
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZPs-uc-BOW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="965" y="-224"/>
+            <point key="canvasLocation" x="890" y="-196"/>
+        </scene>
+        <!--Sydney-->
+        <scene sceneID="oYS-O7-dJD">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Sydney" id="EPc-4Y-AYA" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="4Fp-pE-fD4"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Eo0-Yf-X4o" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="891" y="-159"/>
+        </scene>
+        <!--Osaka-->
+        <scene sceneID="qn8-jo-0ym">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Osaka" id="eHN-Td-SLo" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="kpQ-rq-HHM"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PxH-DW-IaR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="891" y="-27"/>
+        </scene>
+        <!--Seoul-->
+        <scene sceneID="h2z-cp-cJt">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Seoul" id="eF2-sQ-gfc" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="ZFa-8i-jyc"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hqK-nB-ycj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="891" y="202"/>
+        </scene>
+        <!--Bangkok-->
+        <scene sceneID="oux-qv-31d">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Bangkok" id="UTz-Vh-RxT" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="Ugf-X1-pbM"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Kgf-Qh-Dsh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="891" y="135"/>
+        </scene>
+        <!--Sabah-->
+        <scene sceneID="b3Q-jy-w95">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Sabah" id="x5i-70-Kq9" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="85d-Nh-BZK"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Knf-gQ-oIi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="890" y="85"/>
+        </scene>
+        <!--KUL-->
+        <scene sceneID="wSD-Yp-h6M">
+            <objects>
+                <viewControllerPlaceholder storyboardName="KUL" id="yba-VG-30g" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="X4v-aS-z6e"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ae4-0h-cUe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="891" y="62"/>
+        </scene>
+        <!--Kyoto-->
+        <scene sceneID="K0N-He-YNS">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Kyoto" id="QhN-ye-cqu" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="svV-BY-Tl2"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pt8-nv-vsu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="891" y="6"/>
+        </scene>
+        <!--Tokyo-->
+        <scene sceneID="JkR-sZ-HOs">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Tokyo" id="Bfj-bp-hMY" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="Mev-PM-est"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="89d-zu-FmY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="891" y="-58"/>
+        </scene>
+        <!--ChiangMai-->
+        <scene sceneID="i52-3s-wxN">
+            <objects>
+                <viewControllerPlaceholder storyboardName="ChiangMai" id="nQT-gd-aRr" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="HHN-EG-lkK"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kNh-5b-AQe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="891" y="165"/>
         </scene>
     </scenes>
     <resources>

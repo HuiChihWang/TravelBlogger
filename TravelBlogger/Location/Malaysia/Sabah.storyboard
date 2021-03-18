@@ -26,8 +26,8 @@
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Great Palace" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Ew-xG-gLZ">
-                                                    <rect key="frame" x="20" y="11" width="121" height="27"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Gaya Island" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Ew-xG-gLZ">
+                                                    <rect key="frame" x="20" y="11" width="111" height="27"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                                     <nil key="textColor"/>
@@ -46,8 +46,8 @@
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Red Sky Bar" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sn6-S3-2RG">
-                                                    <rect key="frame" x="20" y="11" width="116" height="27"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Mantanani Island" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sn6-S3-2RG">
+                                                    <rect key="frame" x="20" y="11" width="161" height="27"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                                     <nil key="textColor"/>
@@ -70,8 +70,8 @@
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Nara Thai Cousin" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k8N-fa-wYs">
-                                                    <rect key="frame" x="20" y="11" width="163" height="27"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Fook Yuen" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k8N-fa-wYs">
+                                                    <rect key="frame" x="20" y="11" width="100" height="27"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                                     <nil key="textColor"/>
@@ -90,8 +90,8 @@
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Somtam Nua" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WFI-c7-6KI">
-                                                    <rect key="frame" x="20" y="11" width="124" height="27"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Yu Kee Bak Kut Teh" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WFI-c7-6KI">
+                                                    <rect key="frame" x="20" y="11" width="183" height="27"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                                     <nil key="textColor"/>
@@ -124,13 +124,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="currumbin" translatesAutoresizingMaskIntoConstraints="NO" id="OX7-hk-9ch">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Gaya Island" translatesAutoresizingMaskIntoConstraints="NO" id="OX7-hk-9ch">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="290"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="OX7-hk-9ch" secondAttribute="height" multiplier="207:145" id="eFu-yj-Ac6"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="currumbin wildlife sanctuary" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NYq-80-wFm">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Gaya Island" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NYq-80-wFm">
                                 <rect key="frame" x="0.0" y="308" width="414" height="33"/>
                                 <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="30"/>
                                 <nil key="textColor"/>
@@ -142,7 +142,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="256" id="Ko8-Z9-pn5"/>
                                 </constraints>
-                                <string key="text">Walk on the wild side at the heritage-listed Currumbin Wildlife Sanctuary located in the City of Gold Coast, Queensland. Witness attractions such as free flight bird shows and crocodile feeding. Get a glimpse of Australia’s rich biodiversity and native species like the koala, kangaroo, Tasmanian devil, and more!</string>
+                                <string key="text">Gaya is the largest island in the Tunku Abdul Rahman National Park, closest to downtown Kota Kinabalu (KK) and is covered with dense virgin, tropical forest. It has been a forest reserve since 1923.</string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="20"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -190,13 +190,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dream world" translatesAutoresizingMaskIntoConstraints="NO" id="TIM-QV-06q">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Mantanani Island" translatesAutoresizingMaskIntoConstraints="NO" id="TIM-QV-06q">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="290"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="TIM-QV-06q" secondAttribute="height" multiplier="207:145" id="HfA-fm-Xlr"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Red Sky Bar" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CD9-77-Z1y">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mantanani Island" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CD9-77-Z1y">
                                 <rect key="frame" x="0.0" y="308" width="414" height="33"/>
                                 <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="30"/>
                                 <nil key="textColor"/>
@@ -208,7 +208,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="256" id="EoG-yB-huK"/>
                                 </constraints>
-                                <string key="text">We are Australia’s biggest theme park, with rides, slides and wildlife all in one place on the Gold Coast, Australia's playground. Dreamworld hosts around one million visitors each year with a staff of more than 1200 include ride operators, life guards, engineers, entertainers, animal carers and many more.</string>
+                                <string key="text">Mantanani Islands are a group of three isolated islands located northwest of Kota Belud, about an hour's drive from the state capital of Sabah, Kota Kinabalu.</string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="20"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -255,25 +255,24 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bettys burger" translatesAutoresizingMaskIntoConstraints="NO" id="jbw-pH-rh3">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="yu kee" translatesAutoresizingMaskIntoConstraints="NO" id="jbw-pH-rh3">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="290"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="jbw-pH-rh3" secondAttribute="height" multiplier="207:145" id="76h-Zv-dhp"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Somtam Nua" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="08Y-4N-mxH">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Yu Kee Bak Kut Teh" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="08Y-4N-mxH">
                                 <rect key="frame" x="0.0" y="308" width="414" height="33"/>
                                 <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nRd-YE-jm1">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="佑記的招牌為排骨肉骨茶，因為肉骨茶的起源就是以骨肉來熬煮中藥材，除了大骨之外，中藥材加入了當歸、枸杞、川芎、丁香、桂皮、八角、胡椒等熬煮數小時，不同區的肉骨茶則會有些微的差距" translatesAutoresizingMaskIntoConstraints="NO" id="nRd-YE-jm1">
                                 <rect key="frame" x="20" y="365" width="374" height="256"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="256" id="Dli-s5-wt1"/>
                                 </constraints>
-                                <string key="text">We are Australia’s biggest theme park, with rides, slides and wildlife all in one place on the Gold Coast, Australia's playground. Dreamworld hosts around one million visitors each year with a staff of more than 1200 include ride operators, life guards, engineers, entertainers, animal carers and many more.</string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="20"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -320,13 +319,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pancakes on the rock" translatesAutoresizingMaskIntoConstraints="NO" id="f71-4B-IAf">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="富源" translatesAutoresizingMaskIntoConstraints="NO" id="f71-4B-IAf">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="290"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="f71-4B-IAf" secondAttribute="height" multiplier="207:145" id="AZM-m3-nHg"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nara Thai Cousin" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EcJ-u2-5NS">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fook Yuen" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EcJ-u2-5NS">
                                 <rect key="frame" x="0.0" y="308" width="414" height="33"/>
                                 <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="30"/>
                                 <nil key="textColor"/>
@@ -338,8 +337,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="256" id="0Ac-1J-6u4"/>
                                 </constraints>
-                                <string key="text">Pancakes On The Rocks opened on Hickson Road, at The Rocks in Sydney on 17th August, 1975. Our aim of serving quality food, with friendly service in a welcoming atmosphere continues in all our restaurants. With the continued success of Pancakes On The Rocks in each location we plan to open more restaurants in Australia and around the world.
-</string>
+                                <string key="text">沙巴美食小店「富源茶餐室」(Fook Yuen Café &amp; Bakery)是間從早到宵夜都有東西吃的茶餐室，最著名的冷牛油咖椰土司佐上一杯茶香濃郁的拉茶，看似樸實平凡卻擄獲人心，吃過一次會愛上，在地人和遊客都喜歡！還有特色自助餐可體驗在地風味，正餐、點心時刻都包辦了</string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="20"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -380,10 +378,10 @@
         </scene>
     </scenes>
     <resources>
-        <image name="bettys burger" width="686" height="460"/>
-        <image name="currumbin" width="900" height="540"/>
-        <image name="dream world" width="900" height="540"/>
-        <image name="pancakes on the rock" width="650" height="422"/>
+        <image name="Gaya Island" width="1440" height="960"/>
+        <image name="Mantanani Island" width="1600" height="1071"/>
+        <image name="yu kee" width="1200" height="800"/>
+        <image name="富源" width="580" height="435"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

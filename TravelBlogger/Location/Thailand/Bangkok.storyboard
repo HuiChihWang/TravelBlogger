@@ -124,7 +124,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="currumbin" translatesAutoresizingMaskIntoConstraints="NO" id="OX7-hk-9ch">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="great palace" translatesAutoresizingMaskIntoConstraints="NO" id="OX7-hk-9ch">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="290"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="OX7-hk-9ch" secondAttribute="height" multiplier="207:145" id="eFu-yj-Ac6"/>
@@ -142,7 +142,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="256" id="Ko8-Z9-pn5"/>
                                 </constraints>
-                                <string key="text">Walk on the wild side at the heritage-listed Currumbin Wildlife Sanctuary located in the City of Gold Coast, Queensland. Witness attractions such as free flight bird shows and crocodile feeding. Get a glimpse of Australia’s rich biodiversity and native species like the koala, kangaroo, Tasmanian devil, and more!</string>
+                                <string key="text">The dazzling, spectacular Grand Palace is undoubtedly the most famous landmark in Bangkok. It's one must-see sight that no visit to the city would be complete without. It was built in 1782 and for 150 years was the home of the Thai King, the Royal court and the administrative seat of government.</string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="20"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -190,7 +190,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dream world" translatesAutoresizingMaskIntoConstraints="NO" id="TIM-QV-06q">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="red sky bar" translatesAutoresizingMaskIntoConstraints="NO" id="TIM-QV-06q">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="290"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="TIM-QV-06q" secondAttribute="height" multiplier="207:145" id="HfA-fm-Xlr"/>
@@ -208,7 +208,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="256" id="EoG-yB-huK"/>
                                 </constraints>
-                                <string key="text">We are Australia’s biggest theme park, with rides, slides and wildlife all in one place on the Gold Coast, Australia's playground. Dreamworld hosts around one million visitors each year with a staff of more than 1200 include ride operators, life guards, engineers, entertainers, animal carers and many more.</string>
+                                <string key="text">One of the best rooftop restaurants in Bangkok, RedSky serves sublime Surf &amp; Turf dishes, prime steaks, and delicious seafood dishes alongside stunning views.</string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="20"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -255,7 +255,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bettys burger" translatesAutoresizingMaskIntoConstraints="NO" id="jbw-pH-rh3">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Somtam Nua" translatesAutoresizingMaskIntoConstraints="NO" id="jbw-pH-rh3">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="290"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="jbw-pH-rh3" secondAttribute="height" multiplier="207:145" id="76h-Zv-dhp"/>
@@ -273,7 +273,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="256" id="Dli-s5-wt1"/>
                                 </constraints>
-                                <string key="text">We are Australia’s biggest theme park, with rides, slides and wildlife all in one place on the Gold Coast, Australia's playground. Dreamworld hosts around one million visitors each year with a staff of more than 1200 include ride operators, life guards, engineers, entertainers, animal carers and many more.</string>
+                                <string key="text">The Somtum Nua at Central Embassy is a more elegant and more hygienic branch (at least from what we see) of the famous somtum eatery in Siam Square. The space comes alive with potted plants and an art-splattered wall.</string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="20"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -320,7 +320,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pancakes on the rock" translatesAutoresizingMaskIntoConstraints="NO" id="f71-4B-IAf">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="nara cuisine" translatesAutoresizingMaskIntoConstraints="NO" id="f71-4B-IAf">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="290"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="f71-4B-IAf" secondAttribute="height" multiplier="207:145" id="AZM-m3-nHg"/>
@@ -338,8 +338,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="256" id="0Ac-1J-6u4"/>
                                 </constraints>
-                                <string key="text">Pancakes On The Rocks opened on Hickson Road, at The Rocks in Sydney on 17th August, 1975. Our aim of serving quality food, with friendly service in a welcoming atmosphere continues in all our restaurants. With the continued success of Pancakes On The Rocks in each location we plan to open more restaurants in Australia and around the world.
-</string>
+                                <string key="text">Nara Thai Cuisine – One of Bangkok's Best, Opening in Singapore. [Bangkok, Thailand] Nara Thai Cuisine is the kind of restaurant for the richer Thais, which transforms the usual street food into posh versions, complete with beautiful and elegant plating.</string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="20"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -380,10 +379,10 @@
         </scene>
     </scenes>
     <resources>
-        <image name="bettys burger" width="686" height="460"/>
-        <image name="currumbin" width="900" height="540"/>
-        <image name="dream world" width="900" height="540"/>
-        <image name="pancakes on the rock" width="650" height="422"/>
+        <image name="Somtam Nua" width="850" height="566"/>
+        <image name="great palace" width="1280" height="720"/>
+        <image name="nara cuisine" width="718" height="470"/>
+        <image name="red sky bar" width="1200" height="800"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

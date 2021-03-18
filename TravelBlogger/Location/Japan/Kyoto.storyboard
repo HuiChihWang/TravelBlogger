@@ -26,8 +26,8 @@
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Great Palace" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Ew-xG-gLZ">
-                                                    <rect key="frame" x="20" y="11" width="121" height="27"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="伏見稻荷大社" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Ew-xG-gLZ">
+                                                    <rect key="frame" x="20" y="11" width="134" height="27"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                                     <nil key="textColor"/>
@@ -46,8 +46,8 @@
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Red Sky Bar" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sn6-S3-2RG">
-                                                    <rect key="frame" x="20" y="11" width="116" height="27"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="三室戶寺" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sn6-S3-2RG">
+                                                    <rect key="frame" x="20" y="11" width="90" height="27"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                                     <nil key="textColor"/>
@@ -70,8 +70,8 @@
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Nara Thai Cousin" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k8N-fa-wYs">
-                                                    <rect key="frame" x="20" y="11" width="163" height="27"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="京の焼肉処" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k8N-fa-wYs">
+                                                    <rect key="frame" x="20" y="11" width="112" height="27"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                                     <nil key="textColor"/>
@@ -90,8 +90,8 @@
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Somtam Nua" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WFI-c7-6KI">
-                                                    <rect key="frame" x="20" y="11" width="124" height="27"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="大起水產迴轉壽司" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WFI-c7-6KI">
+                                                    <rect key="frame" x="20" y="11" width="179" height="27"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                                     <nil key="textColor"/>
@@ -124,25 +124,24 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="currumbin" translatesAutoresizingMaskIntoConstraints="NO" id="OX7-hk-9ch">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="伏見稻荷" translatesAutoresizingMaskIntoConstraints="NO" id="OX7-hk-9ch">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="290"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="OX7-hk-9ch" secondAttribute="height" multiplier="207:145" id="eFu-yj-Ac6"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="currumbin wildlife sanctuary" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NYq-80-wFm">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="伏見稻荷大社" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NYq-80-wFm">
                                 <rect key="frame" x="0.0" y="308" width="414" height="33"/>
                                 <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Hny-tY-R4a">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="伏見稻荷大社算是京都幾大必去景點中，縱使遊客多又喧囂，我仍很喜歡的地方，走進整排的紅色千本鳥居時，真的會覺得很震撼" translatesAutoresizingMaskIntoConstraints="NO" id="Hny-tY-R4a">
                                 <rect key="frame" x="20" y="365" width="374" height="256"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="256" id="Ko8-Z9-pn5"/>
                                 </constraints>
-                                <string key="text">Walk on the wild side at the heritage-listed Currumbin Wildlife Sanctuary located in the City of Gold Coast, Queensland. Witness attractions such as free flight bird shows and crocodile feeding. Get a glimpse of Australia’s rich biodiversity and native species like the koala, kangaroo, Tasmanian devil, and more!</string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="20"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -190,25 +189,24 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dream world" translatesAutoresizingMaskIntoConstraints="NO" id="TIM-QV-06q">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="三戶室寺" translatesAutoresizingMaskIntoConstraints="NO" id="TIM-QV-06q">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="290"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="TIM-QV-06q" secondAttribute="height" multiplier="207:145" id="HfA-fm-Xlr"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Red Sky Bar" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CD9-77-Z1y">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="三室戶寺" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CD9-77-Z1y">
                                 <rect key="frame" x="0.0" y="308" width="414" height="33"/>
                                 <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Dh2-7H-y8M">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="三室戶寺位在茶之京都ーー宇治，自平安時代（794年～1185年）創建，隸屬西國三十三處巡禮中的第十處。寺內正殿有座福德兔像，由花崗岩打造而成，其所環抱的玉石當中放有一顆蛋型石，據說立石成功便能實現願望。" translatesAutoresizingMaskIntoConstraints="NO" id="Dh2-7H-y8M">
                                 <rect key="frame" x="20" y="365" width="374" height="256"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="256" id="EoG-yB-huK"/>
                                 </constraints>
-                                <string key="text">We are Australia’s biggest theme park, with rides, slides and wildlife all in one place on the Gold Coast, Australia's playground. Dreamworld hosts around one million visitors each year with a staff of more than 1200 include ride operators, life guards, engineers, entertainers, animal carers and many more.</string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="20"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -255,13 +253,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bettys burger" translatesAutoresizingMaskIntoConstraints="NO" id="jbw-pH-rh3">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="大起水產迴轉壽司" translatesAutoresizingMaskIntoConstraints="NO" id="jbw-pH-rh3">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="290"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="jbw-pH-rh3" secondAttribute="height" multiplier="207:145" id="76h-Zv-dhp"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Somtam Nua" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="08Y-4N-mxH">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="大起水產迴轉壽司" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="08Y-4N-mxH">
                                 <rect key="frame" x="0.0" y="308" width="414" height="33"/>
                                 <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="30"/>
                                 <nil key="textColor"/>
@@ -273,7 +271,9 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="256" id="Dli-s5-wt1"/>
                                 </constraints>
-                                <string key="text">We are Australia’s biggest theme park, with rides, slides and wildlife all in one place on the Gold Coast, Australia's playground. Dreamworld hosts around one million visitors each year with a staff of more than 1200 include ride operators, life guards, engineers, entertainers, animal carers and many more.</string>
+                                <string key="text">2017年京都塔樓下的商場B1新開幕，算是平價又新鮮的迴轉壽司唷！大阪的分店吃過好幾次了，京都分店的味道也不差！
+
+</string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="20"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -320,30 +320,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pancakes on the rock" translatesAutoresizingMaskIntoConstraints="NO" id="f71-4B-IAf">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="京の焼肉処" translatesAutoresizingMaskIntoConstraints="NO" id="f71-4B-IAf">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="290"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="f71-4B-IAf" secondAttribute="height" multiplier="207:145" id="AZM-m3-nHg"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nara Thai Cousin" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EcJ-u2-5NS">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="京の焼肉処" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EcJ-u2-5NS">
                                 <rect key="frame" x="0.0" y="308" width="414" height="33"/>
                                 <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ffu-19-zL8">
-                                <rect key="frame" x="20" y="409" width="374" height="267"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="256" id="0Ac-1J-6u4"/>
-                                </constraints>
-                                <string key="text">Pancakes On The Rocks opened on Hickson Road, at The Rocks in Sydney on 17th August, 1975. Our aim of serving quality food, with friendly service in a welcoming atmosphere continues in all our restaurants. With the continued success of Pancakes On The Rocks in each location we plan to open more restaurants in Australia and around the world.
-</string>
-                                <color key="textColor" systemColor="labelColor"/>
-                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="20"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vfl-FA-Cnl">
                                 <rect key="frame" x="109" y="669" width="196" height="82"/>
                                 <color key="backgroundColor" red="0.60574042800000005" green="0.11049894239999999" blue="0.1215385571" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -356,6 +344,16 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                             </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" text="不太容易踩雷的弘燒肉，八条口店離京都車站也很近，點了幾道肉品都好吃，而且八条口店的裝潢氣氛跟本店很不一樣，比較時尚耶，桌上還有高腳杯可以喝紅白酒，吃完身上燒肉味也不會很重，推薦！" translatesAutoresizingMaskIntoConstraints="NO" id="Ffu-19-zL8">
+                                <rect key="frame" x="20" y="364" width="374" height="267"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="256" id="0Ac-1J-6u4"/>
+                                </constraints>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Wao-pN-odr"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -380,10 +378,10 @@
         </scene>
     </scenes>
     <resources>
-        <image name="bettys burger" width="686" height="460"/>
-        <image name="currumbin" width="900" height="540"/>
-        <image name="dream world" width="900" height="540"/>
-        <image name="pancakes on the rock" width="650" height="422"/>
+        <image name="三戶室寺" width="860" height="573"/>
+        <image name="京の焼肉処" width="1000" height="666"/>
+        <image name="伏見稻荷" width="1920" height="1280"/>
+        <image name="大起水產迴轉壽司" width="1000" height="666"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

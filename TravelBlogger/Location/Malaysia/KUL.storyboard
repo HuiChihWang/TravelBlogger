@@ -26,8 +26,8 @@
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Great Palace" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Ew-xG-gLZ">
-                                                    <rect key="frame" x="20" y="11" width="121" height="27"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Petronas Towers" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Ew-xG-gLZ">
+                                                    <rect key="frame" x="20" y="11" width="157" height="27"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                                     <nil key="textColor"/>
@@ -46,8 +46,8 @@
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Red Sky Bar" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sn6-S3-2RG">
-                                                    <rect key="frame" x="20" y="11" width="116" height="27"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Putra Mosque" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sn6-S3-2RG">
+                                                    <rect key="frame" x="20" y="11" width="133" height="27"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                                     <nil key="textColor"/>
@@ -70,8 +70,8 @@
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Nara Thai Cousin" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k8N-fa-wYs">
-                                                    <rect key="frame" x="20" y="11" width="163" height="27"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="黃亞華小吃店" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k8N-fa-wYs">
+                                                    <rect key="frame" x="20" y="11" width="134" height="27"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                                     <nil key="textColor"/>
@@ -90,8 +90,8 @@
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Somtam Nua" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WFI-c7-6KI">
-                                                    <rect key="frame" x="20" y="11" width="124" height="27"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="勝記馳名" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WFI-c7-6KI">
+                                                    <rect key="frame" x="20" y="11" width="90" height="27"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                                     <nil key="textColor"/>
@@ -124,13 +124,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="currumbin" translatesAutoresizingMaskIntoConstraints="NO" id="OX7-hk-9ch">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Petronas Towers" translatesAutoresizingMaskIntoConstraints="NO" id="OX7-hk-9ch">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="290"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="OX7-hk-9ch" secondAttribute="height" multiplier="207:145" id="eFu-yj-Ac6"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="currumbin wildlife sanctuary" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NYq-80-wFm">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Petronas Towers" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NYq-80-wFm">
                                 <rect key="frame" x="0.0" y="308" width="414" height="33"/>
                                 <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="30"/>
                                 <nil key="textColor"/>
@@ -190,13 +190,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dream world" translatesAutoresizingMaskIntoConstraints="NO" id="TIM-QV-06q">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Putra Mosque" translatesAutoresizingMaskIntoConstraints="NO" id="TIM-QV-06q">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="290"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="TIM-QV-06q" secondAttribute="height" multiplier="207:145" id="HfA-fm-Xlr"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Red Sky Bar" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CD9-77-Z1y">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Putra Mosque" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CD9-77-Z1y">
                                 <rect key="frame" x="0.0" y="308" width="414" height="33"/>
                                 <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="30"/>
                                 <nil key="textColor"/>
@@ -208,7 +208,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="256" id="EoG-yB-huK"/>
                                 </constraints>
-                                <string key="text">We are Australia’s biggest theme park, with rides, slides and wildlife all in one place on the Gold Coast, Australia's playground. Dreamworld hosts around one million visitors each year with a staff of more than 1200 include ride operators, life guards, engineers, entertainers, animal carers and many more.</string>
+                                <string key="text">The Putra Mosque is one of the few pink mosques in the world. However, it’s not as well-known as the Nasir-ol-Mulk Mosque in Iran or the mosque found in the Philippines, and not as pink as either. Still, this pastel pink-domed mosque’s delicate features are a sight to behold.</string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="20"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -255,25 +255,24 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bettys burger" translatesAutoresizingMaskIntoConstraints="NO" id="jbw-pH-rh3">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="勝記馳名" translatesAutoresizingMaskIntoConstraints="NO" id="jbw-pH-rh3">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="290"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="jbw-pH-rh3" secondAttribute="height" multiplier="207:145" id="76h-Zv-dhp"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Somtam Nua" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="08Y-4N-mxH">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="勝記馳名" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="08Y-4N-mxH">
                                 <rect key="frame" x="0.0" y="308" width="414" height="33"/>
                                 <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nRd-YE-jm1">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="老鼠粉是短短透明的麵條，有一點像台灣的米苔目，口感軟卻不爛，用瓦煲加入了黑醬油、碎肉、再放上蔥花、生雞蛋，吃的時候需要攪拌一下，如果怕太鹹可以請店家做淡一點，附上了生辣椒、辣醬，想吃辣就自己加、醬色雖然很深但吃起來卻不鹹，口感卻很滑順。" translatesAutoresizingMaskIntoConstraints="NO" id="nRd-YE-jm1">
                                 <rect key="frame" x="20" y="365" width="374" height="256"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="256" id="Dli-s5-wt1"/>
                                 </constraints>
-                                <string key="text">We are Australia’s biggest theme park, with rides, slides and wildlife all in one place on the Gold Coast, Australia's playground. Dreamworld hosts around one million visitors each year with a staff of more than 1200 include ride operators, life guards, engineers, entertainers, animal carers and many more.</string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="20"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -320,26 +319,24 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pancakes on the rock" translatesAutoresizingMaskIntoConstraints="NO" id="f71-4B-IAf">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="黃亞華小吃店" translatesAutoresizingMaskIntoConstraints="NO" id="f71-4B-IAf">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="290"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="f71-4B-IAf" secondAttribute="height" multiplier="207:145" id="AZM-m3-nHg"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nara Thai Cousin" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EcJ-u2-5NS">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="黃亞華小吃店" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EcJ-u2-5NS">
                                 <rect key="frame" x="0.0" y="308" width="414" height="33"/>
                                 <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ffu-19-zL8">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" text="吉隆坡美食大推亞羅街夜市的黃亞華小食店，如果您是為了購物而來亞羅街夜市，那您會大失所望，因為這兒的東西賣得非常貴，當地朋友說不如就在距離此處大約步行十分鐘左右的巴比倫購物廣場買就好，來到亞羅街夜市，有許多大馬小吃，肯定不會讓您失望！" translatesAutoresizingMaskIntoConstraints="NO" id="Ffu-19-zL8">
                                 <rect key="frame" x="20" y="409" width="374" height="267"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="256" id="0Ac-1J-6u4"/>
                                 </constraints>
-                                <string key="text">Pancakes On The Rocks opened on Hickson Road, at The Rocks in Sydney on 17th August, 1975. Our aim of serving quality food, with friendly service in a welcoming atmosphere continues in all our restaurants. With the continued success of Pancakes On The Rocks in each location we plan to open more restaurants in Australia and around the world.
-</string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="20"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -380,10 +377,10 @@
         </scene>
     </scenes>
     <resources>
-        <image name="bettys burger" width="686" height="460"/>
-        <image name="currumbin" width="900" height="540"/>
-        <image name="dream world" width="900" height="540"/>
-        <image name="pancakes on the rock" width="650" height="422"/>
+        <image name="Petronas Towers" width="512" height="325"/>
+        <image name="Putra Mosque" width="900" height="600"/>
+        <image name="勝記馳名" width="800" height="532"/>
+        <image name="黃亞華小吃店" width="800" height="600"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
