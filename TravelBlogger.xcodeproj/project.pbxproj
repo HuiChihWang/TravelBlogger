@@ -15,6 +15,7 @@
 		0C74E5A1260354CF00CCF8FC /* Sydney.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C74E59B260354CF00CCF8FC /* Sydney.storyboard */; };
 		0C74E5A2260354CF00CCF8FC /* Tokyo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C74E59C260354CF00CCF8FC /* Tokyo.storyboard */; };
 		0C74E5B12603578B00CCF8FC /* ChiangMai.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C74E5B02603578B00CCF8FC /* ChiangMai.storyboard */; };
+		0C74E5B42603BD4000CCF8FC /* Photo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C74E5B32603BD4000CCF8FC /* Photo.storyboard */; };
 		0CFEA40725FB709F0075AC6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CFEA40625FB709F0075AC6D /* AppDelegate.swift */; };
 		0CFEA40925FB709F0075AC6D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CFEA40825FB709F0075AC6D /* SceneDelegate.swift */; };
 		0CFEA40E25FB709F0075AC6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CFEA40C25FB709F0075AC6D /* Main.storyboard */; };
@@ -36,6 +37,7 @@
 		0C74E59B260354CF00CCF8FC /* Sydney.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Sydney.storyboard; sourceTree = "<group>"; };
 		0C74E59C260354CF00CCF8FC /* Tokyo.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Tokyo.storyboard; sourceTree = "<group>"; };
 		0C74E5B02603578B00CCF8FC /* ChiangMai.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ChiangMai.storyboard; sourceTree = "<group>"; };
+		0C74E5B32603BD4000CCF8FC /* Photo.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Photo.storyboard; sourceTree = "<group>"; };
 		0CFEA40325FB709F0075AC6D /* TravelBlogger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TravelBlogger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CFEA40625FB709F0075AC6D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0CFEA40825FB709F0075AC6D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -144,6 +146,7 @@
 				0CFEA42D25FF45FB0075AC6D /* Travel.storyboard */,
 				0CFEA40C25FB709F0075AC6D /* Main.storyboard */,
 				0CFEA42525FB75790075AC6D /* Me.storyboard */,
+				0C74E5B32603BD4000CCF8FC /* Photo.storyboard */,
 				0CFEA40F25FB70A70075AC6D /* Assets.xcassets */,
 				0CFEA41125FB70A70075AC6D /* LaunchScreen.storyboard */,
 				0CFEA41425FB70A70075AC6D /* Info.plist */,
@@ -230,6 +233,7 @@
 				0CFEA43225FF51850075AC6D /* GoldCoast.storyboard in Resources */,
 				0C74E5B12603578B00CCF8FC /* ChiangMai.storyboard in Resources */,
 				0C74E59F260354CF00CCF8FC /* Kyoto.storyboard in Resources */,
+				0C74E5B42603BD4000CCF8FC /* Photo.storyboard in Resources */,
 				0C74E5A2260354CF00CCF8FC /* Tokyo.storyboard in Resources */,
 				0CFEA43525FF56380075AC6D /* Seoul.storyboard in Resources */,
 			);
