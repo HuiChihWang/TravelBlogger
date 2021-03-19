@@ -84,6 +84,9 @@
                                                 <constraint firstAttribute="trailingMargin" secondItem="8Mu-30-WnH" secondAttribute="trailing" constant="10" id="rtO-MS-5xz"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="ifh-dR-3vC" kind="show" id="fRe-nZ-AFP"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="200" id="vaa-7p-ZRt">
                                         <rect key="frame" x="20" y="255.5" width="374" height="200"/>
@@ -243,6 +246,16 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XLP-BE-DP1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="965.21739130434787" y="85.714285714285708"/>
+        </scene>
+        <!--BangkokPhoto-->
+        <scene sceneID="Far-GO-cDJ">
+            <objects>
+                <viewControllerPlaceholder storyboardName="BangkokPhoto" id="ifh-dR-3vC" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="WXy-DE-Iaa"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TTu-pR-jjy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1548" y="-59"/>
         </scene>
     </scenes>
     <resources>

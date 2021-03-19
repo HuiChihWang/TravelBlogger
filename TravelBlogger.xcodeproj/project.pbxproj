@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C58A60026045319006A9807 /* BangkokPhoto.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C58A5FF26045319006A9807 /* BangkokPhoto.storyboard */; };
 		0C74E594260351DC00CCF8FC /* Bangkok.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C74E593260351DC00CCF8FC /* Bangkok.storyboard */; };
 		0C74E59D260354CF00CCF8FC /* Osaka.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C74E597260354CE00CCF8FC /* Osaka.storyboard */; };
 		0C74E59E260354CF00CCF8FC /* Sabah.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C74E598260354CE00CCF8FC /* Sabah.storyboard */; };
@@ -29,6 +30,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C58A5FF26045319006A9807 /* BangkokPhoto.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BangkokPhoto.storyboard; sourceTree = "<group>"; };
 		0C74E593260351DC00CCF8FC /* Bangkok.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Bangkok.storyboard; sourceTree = "<group>"; };
 		0C74E597260354CE00CCF8FC /* Osaka.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Osaka.storyboard; sourceTree = "<group>"; };
 		0C74E598260354CE00CCF8FC /* Sabah.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Sabah.storyboard; sourceTree = "<group>"; };
@@ -139,6 +141,7 @@
 		0CFEA40525FB709F0075AC6D /* TravelBlogger */ = {
 			isa = PBXGroup;
 			children = (
+				0C58A5FF26045319006A9807 /* BangkokPhoto.storyboard */,
 				0C74E5A4260354D500CCF8FC /* Location */,
 				0CFEA42825FF3C2E0075AC6D /* Font */,
 				0CFEA40625FB709F0075AC6D /* AppDelegate.swift */,
@@ -226,6 +229,7 @@
 				0CFEA41025FB70A70075AC6D /* Assets.xcassets in Resources */,
 				0CFEA42625FB75790075AC6D /* Me.storyboard in Resources */,
 				0CFEA42E25FF45FB0075AC6D /* Travel.storyboard in Resources */,
+				0C58A60026045319006A9807 /* BangkokPhoto.storyboard in Resources */,
 				0C74E59E260354CF00CCF8FC /* Sabah.storyboard in Resources */,
 				0C74E5A0260354CF00CCF8FC /* KUL.storyboard in Resources */,
 				0CFEA40E25FB709F0075AC6D /* Main.storyboard in Resources */,
