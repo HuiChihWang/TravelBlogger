@@ -180,7 +180,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="471-ue-wC6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="630" y="-264"/>
+            <point key="canvasLocation" x="323" y="100"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="3PW-fC-bmg">
@@ -246,7 +246,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="94Q-a4-a8E" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1375" y="-265"/>
+            <point key="canvasLocation" x="977" y="100"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="51g-GV-6Ch">
@@ -312,7 +312,7 @@ We are proud to showcase the authentic Korean flavor to fried chicken, and will 
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3UL-a5-MWC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="630.43478260869574" y="402.45535714285711"/>
+            <point key="canvasLocation" x="1642" y="100"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Qaq-1x-Kb3">
@@ -379,7 +379,7 @@ We are proud to showcase the authentic Korean flavor to fried chicken, and will 
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="agk-Py-LNd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1374" y="402"/>
+            <point key="canvasLocation" x="2303" y="100"/>
         </scene>
     </scenes>
     <resources>

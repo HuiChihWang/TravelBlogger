@@ -16,12 +16,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BGR-JL-fUe">
-                                <rect key="frame" x="0.0" y="326" width="414" height="570"/>
-                                <connections>
-                                    <segue destination="sjZ-8d-knd" kind="embed" id="Vdw-vI-iIj"/>
-                                </connections>
-                            </containerView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sy-cover" translatesAutoresizingMaskIntoConstraints="NO" id="kpB-zE-8UX">
                                 <rect key="frame" x="0.0" y="44" width="414" height="225"/>
                                 <constraints>
@@ -42,15 +36,11 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="aK7-G9-gZc" firstAttribute="leading" secondItem="pCY-07-aD2" secondAttribute="leading" id="JTk-j9-zBX"/>
-                            <constraint firstAttribute="bottom" secondItem="BGR-JL-fUe" secondAttribute="bottom" id="Mu5-VY-TLh"/>
                             <constraint firstItem="kpB-zE-8UX" firstAttribute="top" secondItem="pCY-07-aD2" secondAttribute="top" id="OH4-QC-dj2"/>
-                            <constraint firstItem="BGR-JL-fUe" firstAttribute="trailing" secondItem="pCY-07-aD2" secondAttribute="trailing" id="TIa-jq-PjB"/>
                             <constraint firstItem="kpB-zE-8UX" firstAttribute="leading" secondItem="pCY-07-aD2" secondAttribute="leading" id="gYL-y6-B71"/>
                             <constraint firstItem="aK7-G9-gZc" firstAttribute="top" secondItem="kpB-zE-8UX" secondAttribute="bottom" constant="-3" id="v0a-D4-GDM"/>
                             <constraint firstItem="kpB-zE-8UX" firstAttribute="trailing" secondItem="pCY-07-aD2" secondAttribute="trailing" id="voM-Rm-hvz"/>
-                            <constraint firstItem="BGR-JL-fUe" firstAttribute="leading" secondItem="pCY-07-aD2" secondAttribute="leading" id="xB6-dX-Tsa"/>
                             <constraint firstItem="aK7-G9-gZc" firstAttribute="trailing" secondItem="pCY-07-aD2" secondAttribute="trailing" id="zEG-68-acn"/>
-                            <constraint firstItem="BGR-JL-fUe" firstAttribute="top" secondItem="aK7-G9-gZc" secondAttribute="bottom" id="zGP-Ue-Ap6"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -63,7 +53,7 @@
             <objects>
                 <tableViewController id="sjZ-8d-knd" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="V4u-q6-ekA">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="570"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <sections>
@@ -209,7 +199,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MIc-aQ-aEH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="38" y="42"/>
+            <point key="canvasLocation" x="-230" y="-417"/>
         </scene>
     </scenes>
     <resources>
