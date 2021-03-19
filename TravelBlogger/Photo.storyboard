@@ -45,7 +45,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="374" height="200"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="D44-Tq-iSB">
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bkk-7" translatesAutoresizingMaskIntoConstraints="NO" id="D44-Tq-iSB">
                                                     <rect key="frame" x="20" y="40" width="120" height="120"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="120" id="m3S-6b-pX0"/>
@@ -95,7 +95,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="374" height="200"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="hdf-Yq-fMo">
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ch-5" translatesAutoresizingMaskIntoConstraints="NO" id="hdf-Yq-fMo">
                                                     <rect key="frame" x="20" y="40" width="120" height="120"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="120" id="Gmh-GI-5pv"/>
@@ -105,8 +105,8 @@
                                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="22" translatesAutoresizingMaskIntoConstraints="NO" id="M9f-95-QPG">
                                                     <rect key="frame" x="165" y="45.5" width="179" height="109"/>
                                                     <subviews>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="畢業旅行" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T0Y-mN-cX9">
-                                                            <rect key="frame" x="0.0" y="0.0" width="82" height="24"/>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="泰國文青旅行" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T0Y-mN-cX9">
+                                                            <rect key="frame" x="0.0" y="0.0" width="122.5" height="24"/>
                                                             <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
@@ -134,6 +134,9 @@
                                                 <constraint firstItem="M9f-95-QPG" firstAttribute="centerY" secondItem="NNm-EY-sYU" secondAttribute="centerY" id="uTD-ZO-rby"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="xbx-d3-kzf" kind="show" id="Wxa-oR-r21"/>
+                                        </connections>
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
@@ -146,7 +149,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="374" height="200"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="8ye-lS-9xG">
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gc-6" translatesAutoresizingMaskIntoConstraints="NO" id="8ye-lS-9xG">
                                                     <rect key="frame" x="20" y="40" width="120" height="120"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="120" id="08h-Sy-bbu"/>
@@ -156,20 +159,20 @@
                                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="22" translatesAutoresizingMaskIntoConstraints="NO" id="GhL-0t-yyA">
                                                     <rect key="frame" x="165" y="45.5" width="179" height="109"/>
                                                     <subviews>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="畢業旅行" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g9L-Ct-6hA">
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="退役旅行" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g9L-Ct-6hA">
                                                             <rect key="frame" x="0.0" y="0.0" width="82" height="24"/>
                                                             <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2018/ 01 / 15" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rd5-3c-J9J">
-                                                            <rect key="frame" x="0.0" y="46" width="96" height="20.5"/>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2019/ 02/ 19" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rd5-3c-J9J">
+                                                            <rect key="frame" x="0.0" y="46" width="94.5" height="20.5"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bangkok" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hx2-Ma-6MF">
-                                                            <rect key="frame" x="0.0" y="88.5" width="66" height="20.5"/>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Gold Coast" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hx2-Ma-6MF">
+                                                            <rect key="frame" x="0.0" y="88.5" width="85" height="20.5"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
@@ -185,6 +188,9 @@
                                                 <constraint firstItem="8ye-lS-9xG" firstAttribute="leading" secondItem="D6v-Kx-md0" secondAttribute="leading" constant="20" id="qGL-rU-pMe"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="FJS-kZ-Gmr" kind="show" id="qJa-1V-BLe"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="200" id="ZmR-OV-pnw">
                                         <rect key="frame" x="20" y="711.5" width="374" height="200"/>
@@ -193,7 +199,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="374" height="200"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="jM3-vE-Ivp">
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sy-7" translatesAutoresizingMaskIntoConstraints="NO" id="jM3-vE-Ivp">
                                                     <rect key="frame" x="20" y="40" width="120" height="120"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="120" id="BKr-i2-dwY"/>
@@ -203,20 +209,20 @@
                                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="22" translatesAutoresizingMaskIntoConstraints="NO" id="oWE-LP-QXW">
                                                     <rect key="frame" x="165" y="45.5" width="179" height="109"/>
                                                     <subviews>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="畢業旅行" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tpG-zG-wTx">
-                                                            <rect key="frame" x="0.0" y="0.0" width="82" height="24"/>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="雪梨小旅行" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tpG-zG-wTx">
+                                                            <rect key="frame" x="0.0" y="0.0" width="102" height="24"/>
                                                             <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2018/ 01 / 15" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nyA-sZ-cJt">
-                                                            <rect key="frame" x="0.0" y="46" width="96" height="20.5"/>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2019/ 02 / 25" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nyA-sZ-cJt">
+                                                            <rect key="frame" x="0.0" y="46" width="101" height="20.5"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bangkok" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZED-3O-RWA">
-                                                            <rect key="frame" x="0.0" y="88.5" width="66" height="20.5"/>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sydney" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZED-3O-RWA">
+                                                            <rect key="frame" x="0.0" y="88.5" width="56.5" height="20.5"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
@@ -232,6 +238,9 @@
                                                 <constraint firstItem="jM3-vE-Ivp" firstAttribute="leading" secondItem="KuA-LM-QNe" secondAttribute="leading" constant="20" id="pSA-yP-1Cf"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="sTH-oA-Pnk" kind="show" id="Lb1-yv-eGd"/>
+                                        </connections>
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
@@ -257,9 +266,43 @@
             </objects>
             <point key="canvasLocation" x="1548" y="-59"/>
         </scene>
+        <!--GoldCoastPhoto-->
+        <scene sceneID="frx-D6-bEc">
+            <objects>
+                <viewControllerPlaceholder storyboardName="GoldCoastPhoto" id="FJS-kZ-Gmr" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="EXs-if-p4o"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wVy-XN-9FC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1580" y="60"/>
+        </scene>
+        <!--ChiangMaiPhoto-->
+        <scene sceneID="ZKo-14-0S4">
+            <objects>
+                <viewControllerPlaceholder storyboardName="ChiangMaiPhoto" id="xbx-d3-kzf" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="7rh-WJ-scl"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Eqr-YF-CqS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1580" y="-19"/>
+        </scene>
+        <!--SydneyPhoto-->
+        <scene sceneID="Avq-qo-HJL">
+            <objects>
+                <viewControllerPlaceholder storyboardName="SydneyPhoto" id="sTH-oA-Pnk" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="yZr-W5-L0o"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SzP-io-sw1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1580" y="104"/>
+        </scene>
     </scenes>
     <resources>
+        <image name="bkk-7" width="1080" height="1080"/>
+        <image name="ch-5" width="3024" height="3024"/>
+        <image name="gc-6" width="3024" height="4032"/>
         <image name="photo" catalog="system" width="128" height="93"/>
+        <image name="sy-7" width="4032" height="3024"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
